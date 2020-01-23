@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>6832797c-2f56-4336-b4ff-dc0ba2275dfa</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Research Output</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme defines the CERIF concept of "Research Output" composed through the link entities cfResultPublication_Classification, cfResultPatent_Classification, cfResultProduct_Classification</cfDescr>
+    <cfClass>
+      <!-- class schemes: Research Output; Research Output; Research Output -->
+      <!-- usage with CERIF: cfResPubl_Class; cfResPat_Class; cfResProd_Class; cfEvent_Class -->
+      <cfClassId>627e286f-a8ae-46c6-891e-0218e6b2f1a8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Output</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; HEFCE REF2014 Output Information Requirements; RMAS Vocabulary; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of research output is defined as a term in the vocabulary. Research output in CERIF terms subsumes results such as publications cfResultPublication (cfResPubl), patent cfResultPatent (cfResPat) and product cfResultProduct (cfResProd); these are logic and physic enitites in the CERIF data model.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The act of becoming formally connected or joined; a social or business relationship.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=affiliation</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

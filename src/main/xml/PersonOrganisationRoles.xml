@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>994069a0-1cd6-11e1-8bc2-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Organisation Roles</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfPerson_OrganisationUnit link entity without further specification, being thus Person Organisation Roles.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Titles -->
+      <!-- usage with CERIF: cfPers_OrgUnit, cfPers_Class -->
+      <cfClassId>3bb53320-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Professor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is professor at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has professor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A professor is someone who is a member of the faculty at a college or university.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=professor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Titles -->
+      <!-- usage with CERIF: cPers_OrgUnit; cfPers_Class -->
+      <cfClassId>a27e5ca7-3d20-4272-9054-7db550e2a053</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Associate</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is associate of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has associate</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, associate is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Associate" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An associate is a person with subordinate membership in a society, institution, or commercial enterprise.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=associate</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>980965b0-1cd5-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Affiliation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is affiliated with</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has affiliate</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, affiliation is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Affiliation" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An affiliation is a formal connection,</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>081e85f0-1cd7-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Subaffiliation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is subaffiliated with</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has subaffiliate</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, subaffiliation is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Subaffiliation" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A subaffiliation is a formal subconnection of an affiliation.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>6125f750-1cd7-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Head</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is head of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has head</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, head is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Head" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A person who is in charge</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=head</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>c302c2f0-1cd7-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Employee</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is employed by</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has employee</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, employee is a role e.g. in the person-organisation relationship; that is, the classification term (cfTerm) "Employee" identified by its cfClassificationIdentifier (a uuid) and reused in the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A worker who is hired to perform a job</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Employee</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_OrgUnit -->
+      <cfClassId>cb3e0010-1cd7-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Member</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is member of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has member</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, the member role happens e.g. within the relationships person-organisation, person-project; organisation-organisation, that is, the classification term (cfTerm) "Member" identified by its cfClassificationIdentifier (a uuid), and reused with e.g. the cfPerson_OrganisationUnit; cfProject_Person; cfOrganisationUnit_OrganisationUnit relationships. A person can be a member of multiple organisations. An organization can be a member of another organization, or a state that belongs to a group of nations.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A member is anything that belongs to a set or class.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=member</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>68971130-1cd8-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Director</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is director of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has director</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, director is e.g. a role in the person-organisation relationship; that is, the classification term (cfTerm) "Director" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A director is someone who controls resources and expenditures</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=director</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>885eeb00-1cf6-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Deputy Director</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is deputy director of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has deputy director</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, deputy director is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Deputy Director" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A deputy director is a person appointed to represent or act on behalf of the director</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=deputy</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>57f7a7d0-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Dean</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is dean of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has dean</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, dean is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Dean" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A dean is an administrator in charge of a division of a university or college.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=dean</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>612163a0-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Principle</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is principle of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has principle</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, principle is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Principle" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A principle is a person who empowers another to act as his or her representative; The person having prime responsibility for an obligation as distinguished from one who acts as surety or as an endorser. (law)</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.yourdictionary.com/principal</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>68cdce40-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Head of Department</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is head of department of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has head of department</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, head of department is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Head of Department" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A head of department is a person who is in charge of a specialized division of a large organization.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=department; http://wordnetweb.princeton.edu/perl/webwn?s=headhttp://wordnetweb.princeton.edu/perl/webwn?s=department; http://wordnetweb.princeton.edu/perl/webwn?s=head</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>7210b760-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Group Leader</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is group leader of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has group leader</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, group leader is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Group Leader" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A group leader is a person who rules or guides or inspires others or any number of entities (members) considered as a unit.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=group; http://wordnetweb.princeton.edu/perl/webwn?s=leader</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure; Person Funding Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_Fund; cfPers_Fund -->
+      <cfClassId>79a2e340-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Manager</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is manager of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has manager</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, the manager role happens e.g. within the relationships person-organisation or person-project; that is, the classification term (cfTerm) "Manager" identified by its cfClassificationIdentifier (a uuid), and reused with the e.g. cfPerson_OrganisationUnit or cfProject_Person relationships.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A manager is someone who controls resources and expenditures.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers -->
+      <cfClassId>8418a710-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Spokesperson</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is spokesperson of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has spokesperson</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, spokesperson is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Spokesperson" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A spokesperson is an advocate who represents someone else's policy or purpose.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=spokesperson</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>94d55210-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Fellow</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is fellow of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has fellow</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, fellow is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Fellow" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A fellow is a member of a learned society.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=fellow</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Person Output Contributions; Organisation Project Engagements; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfPers_ResPubl; cfProj_OrgUnit; cfOrgUnit_ResPubl -->
+      <cfClassId>9ef1ab40-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Reviewer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is reviewer of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has reviewer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, reviewer is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Reviewer" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A reviewer is someone who reads manuscripts and judges their suitability for publication.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=reviewer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
+      <cfClassId>abf21190-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Contractor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is contractor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has contractor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation contracted to undertake a specific bounded (time and specification) subset of an activity. Normally such an organisation would not retain an interest in any IP generated from the activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A contractor is someone (a person or firm) who contracts to build things, (law) a party to a contract.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=contractor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfProj_OrgUnit -->
+      <cfClassId>b272a660-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Subcontractor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is subcontractor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has subcontractor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A subcontractor is someone who enters into a subcontract with the primary contractor.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=subcontractor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers -->
+      <cfClassId>057a7d50-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Engineer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is engineer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has engineer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in e.g. the cfPerson_OrganisationUnit or cfProject_Person link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A person who uses scientific knowledge to solve practical problems.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=engineer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit; -->
+      <cfClassId>c6e02460-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Secretary</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is secretary at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has secretary</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, secretary is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Secretary" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A secretary is a person who is head of an administrative department of government, an assistant who handles correspondence and clerical work for a boss or an organization</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=secretary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers -->
+      <cfClassId>ebd55ab0-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Researcher</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is researcher at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has researcher</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, researcher is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Researcher" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A researcher is a scientist who devotes himself to doing research (Wordnet). Permanent research, non-teaching staff (RMAS Project).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=researcher</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>f401a3b0-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Junior Researcher</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is junior researcher at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has junior researcher</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, junior researcher is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Junior Researcher" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A junior researcher is a scientist who devotes himself to doing research but younger; lower in rank; shorter in length of tenure or service</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Junior; http://wordnetweb.princeton.edu/perl/webwn?s=researcher</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>faf322c0-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Senior Researcher</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is senior researcher at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has senior researcher</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, senior researcher is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Senior Researcher" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A senior researcher is a scientist who devotes himself to doing research and is older; higher in rank; longer in length of tenure or service</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=senior; http://wordnetweb.princeton.edu/perl/webwn?s=researcher</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers -->
+      <cfClassId>04c3f400-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Consultant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is consultant at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has consultant</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, consultant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Consultant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A consultant is an expert who gives advice.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=consultant</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>0bb17b70-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Junior Consultant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is junior consultant at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has junior consultant</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, junior consultant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Junior Consultant" identified by its cfClassificationIdentifier (a uuid) and reused in in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A junior consultant is an expert who gives advice and that is younger; lower in rank; shorter in length of tenure or service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=junior; http://wordnetweb.princeton.edu/perl/webwn?s=consultant</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>13633d40-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Senior Consultant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is senior consultant at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has senior consultant</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, senior consultant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Senior Consultant" identified by its cfClassificationIdentifier (a uuid) and reused in in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A senior consultant is an expert who gives advice that is older; higher in rank; longer in length of tenure or service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=consultant; http://wordnetweb.princeton.edu/perl/webwn?s=senior</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>1a3c5250-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Lecturer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is lecturer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has lecturer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A lecturer is someone who lectures professionally, a public lecturer at certain universities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=lecturer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>23b16f00-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Junior Lecturer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is junior lecturer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has junior lecturer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, junior lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Junior Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A junior lecturer is someone who lectures professionally, a public lecturer at certain universities and is younger; lower in rank; shorter in length of tenure or service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=lecturer; http://wordnetweb.princeton.edu/perl/webwn?s=junior</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>2b20d0a0-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Senior Lecturer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is senior lecturer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has senior lecturer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, senior lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Senior Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A senior lecturer is someone who lectures professionally, a public lecturer at certain universities and is older; higher in rank; longer in length of tenure or service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=senior; http://wordnetweb.princeton.edu/perl/webwn?s=lecturer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>33661fe0-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Guest Lecturer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is guest lecturer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has guest lecturer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, guest lecturer is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Guest Lecturer" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A guest lecturer is someone who lectures professionally, a public lecturer at certain universities and is a visitor to whom hospitality is extended.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=guest; http://wordnetweb.princeton.edu/perl/webwn?s=lecturer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>45aec210-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Assistant Professor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is assistant professor at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has assistant professor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, assistant professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Assistant Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An assistant professor is a university teacher lower in rank than an associate professor.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.thefreedictionary.com/assistant+professor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>4dfbb270-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Honorary Professor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is honorary professor at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has honorary professor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, honorary professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Honorary Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An honorary professor is given an honor without the normal duties of a professor, someone who is a member of the faculty at a college or university.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=honorary; http://wordnetweb.princeton.edu/perl/webwn?s=professor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>55ddd310-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Visiting Professor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is visiting professor at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has visiting professor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, visiting professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Visiting Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A visiting professor is in the activity of a professor making visits.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=visiting; http://wordnetweb.princeton.edu/perl/webwn?s=professor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>5d1534c0-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Doctor (med)</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is doctor (med) at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has doctor (med)</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, doctor (med) is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Doctor (med)" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A doctor (med) is a licensed medical practitioner.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Doctor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>64af4fe0-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Fellow</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is research fellow at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has research fellow</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, research fellow is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Research Fellow" identified by its cfClassificationIdentifier (a uuid) and reused in in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The title of research fellow is used to denote a research position at a university or similar institution, usually for academic staff or faculty members. A research fellow may act either as an independent investigator or under the supervision of a principal investigator.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Research_fellow</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>6c68b2d0-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Postdoc</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is postdoc at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has postdoc</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, postdoc is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Postdoc" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A PostDoc is a scholar or researcher who is involved in academic study beyond the level of a doctoral degree</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Postdoc</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers -->
+      <cfClassId>727f6240-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">PhD Student</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is phd student at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has phd student</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, phd is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "PhD" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">Doctor of Philosophy, abbreviated to PhD, or Ph.D. in English-speaking countries, for the Greek διδάκτωρ φιλοσοφίας (Latin philosophiae doctor). Here φιλοσοφία/philosophy, literally translating tο "the love of wisdom", is used in the original Greek sense, loosely meaning "the pursuit of in depth knowledge" and does not refer to the scientific field philosophy.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Doctor_of_Philosophy</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A Phd or doctor's degree; doctorate is usually based on at least 3 years graduate study and a dissertation; the highest earned academic degrees conferred by a university.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=PhD</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>7a510820-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Assistant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is research assistant at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has research assistant</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, research assistant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Research Assistant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A research assistant (in some institutions referred to as research officer) is a researcher employed, often on a temporary contract,[1] by a university or a research institute, for the purpose of assisting in academic research. Research assistants are not independent and not directly responsible for the outcome of the research and are responsible to a supervisor or principal investigator. Research assistants are often educated to degree level[2] and might be enrolled in a postgraduate degree programme. Although a research assistant is normally appointed at graduate level, so-called undergraduate research assistant are also sometimes appointed to support research. Similarly a postdoctoral research assistant who has recently been awarded a doctoral degree, may hold a temporary appointment as a research assistant, especially for position without any autonomy and research independence that requires a high degree of reliability.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Research_assistant</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>80cae630-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Reader</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is reader at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has reader</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, reader is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Reader" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A reader is a public lecturer at certain universities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=reader</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>91784ef0-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Teaching Fellow</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is teaching fellow at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has teaching fellow</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, teaching fellow is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Teaching Fellow" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A teaching fellow is a particular teaching role at some universities. In the USA a teaching fellow is an advanced graduate student who serves as the primary instructor for an undergraduate course. In the UK, teaching fellows are more commonly full members of academic staff who have the equivalent rank and pay as 'traditional' research-active academic staff.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Teaching_fellow</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>99c34380-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Teaching Assistant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is teaching assistant at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has teaching assistant</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, teaching assistant is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "teaching assistant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A teaching assistant is an individual who assists a professor or teacher with instructional responsibilities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Teaching_assistant</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>a3bf6a80-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Casual</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is casual at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has casual</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, casual is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Casual" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A caual is a person without or seeming to be without plan or method.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=casual</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>a9fc3f90-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Expert</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is expert at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has expert</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, expert is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Expert" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An expert is a person with special knowledge or ability who performs skillfully.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=expert</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements; Person Output Contributions; Person Output Contributions; Person Output Contributions; Person Output Contributions; Person Organisation Roles; Person Project Engagements; Organisation Funding Roles -->
+      <!-- usage with CERIF: cfPers_Event; cfPers_ResPubl; cfPers_ResPat; cfPers_ResProd; cfPers_Event; cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_Fund -->
+      <cfClassId>e4d7b130-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Contributor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CIA project; RMAS Project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is contributor to</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has contributor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, contributor is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Contributor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Person contributing (in a generic way) before/during/after an event. An entity responsible for making contributions to the resource.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary; http://dublincore.org/documents/dces/#contributor</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

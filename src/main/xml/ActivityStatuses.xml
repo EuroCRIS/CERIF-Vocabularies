@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af93a-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Activity Statuses</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfProject_Classification link entity, being thus Activity states.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>8dc4b088-6e93-4d3a-ab67-60c0d287868b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conceptualised</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The definition of a planned activity is being developed.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>edb73a76-2b48-4eca-991e-1b0b6fbe524a</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Internal-Reviewed</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The definition of a planned activity has been sucessfully reviewed including for example a peer review, ethical review, health and safety review, etc. If not sucessfully reviewed, then the proposal needs adjustment for internal re-review or might change status to not submitted.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>20a14a62-85b2-42fe-bd46-d9f07a752abc</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Submitted</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The proposed activity has been submitted to the proposed funder for consideration.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>444ababa-bfe8-42fc-af0c-15464545ef98</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Not Submitted</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The proposed activity has not been and is not expected to be submitted to a funder for consideration.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>eda2b2e0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Awarded</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in awarding state</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">The state of awarded is to give as judged due or on the basis of merit. The funder has agreed to fund the proposed activity.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary; http://wordnetweb.princeton.edu/perl/webwn?s=Award</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>f97f3ccd-13c0-46ce-9cb3-98ebb58f39fd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Rejected</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project; CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in rejected state</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">The funder rejected the proposed activity. The state of refused is to refuse to let have.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary; http://wordnetweb.princeton.edu/perl/webwn?s=Award</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>0bb4df81-4e9a-41ae-947c-5ae3bde26abd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Assumed Unsuccessful</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The funder has not (yet) responded although the elapsed time since submission implies that the proposal has not been successful.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>bfcdfa1c-6d27-4012-9468-1c91cecbba45</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Withdrawn</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The funder has agreed to fund the proposed activity but the activity will not proceed (e.g. terms of contract are not acceptable, researchers left institution, etc.).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Statuses -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>276a4f0c-6729-47df-b8d3-7cd1cb3c7e67</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Closed</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The activity is considered completed.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>40e90e2f-446d-460a-98e5-5dce57550c48</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Publication Statuses</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The status of the publication in the publishing process.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Publication Statuses -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>1bb29e6d-d282-415f-920d-9b6148933a35</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">In Preparation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A (planned) output.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Publication Statuses -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>1c774414-3a42-4e4c-b3c5-04b89202c40f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Submitted for Consideration</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A final draft submitted for consideration.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Publication Statuses -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>da636eb4-efe2-4112-a4ee-7ce4a99e2374</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">In Press</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An accepted but not yet published output.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Publication Statuses -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>e601872f-4b7e-4d88-929f-7df027b226c9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Published</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An output available in the public domain (paid or open access or grey literature, and including but not restricted to "public domain works").</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Publication Statuses -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>24906a3a-1edd-40f0-aeec-5f0bf4312086</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Unpublished</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A proposed output never put in the public domain.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

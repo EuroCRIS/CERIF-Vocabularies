@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>355408c0-4afa-417d-a7cb-642b74c6dff9</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Project Outcome Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in project initiated results, such as citations or spin-offs, e.g. recorded through the cfProject_OrganisationUnit link entity or with citation counting, being thus project outcome relations.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Project Outcome Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
+      <cfClassId>eda28bcc-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Spin-Off</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is spin-off from</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has spin-off</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A spin-out, also known as a spin-off or a starburst, refers to a type of corporate action where a company "splits off" sections of itself as a separate business.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Corporate_spin-off</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>c1aef353-5dbb-46a2-86bf-709bb4be3b4d</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Funding Source Document Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfResultPublication_Funding link entity, being thus funding source document, assuming the funding concept in CERIF subsumes funding programme, tender, call, and not the income as such, which would be a financial means and as such in CERIF be a measurement.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Funding Source Document Relations -->
+      <!-- usage with CERIF: cfResPubl_Fund -->
+      <cfClassId>eda2b2d9-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funding Programme Document</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is funding programme document of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has funding programme document</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The initial funding programme document of a funding programme.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Document Relations -->
+      <!-- usage with CERIF: cfResPubl_Fund -->
+      <cfClassId>eda2b2da-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Call Document</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is call document of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has call document</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The initial call document of a call.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Document Relations -->
+      <!-- usage with CERIF: cfResPubl_Fund -->
+      <cfClassId>eda2b2db-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Tender Document</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is tender document of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has tender document</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The initial tender document of a tender.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Document Relations -->
+      <!-- usage with CERIF: cfResPubl_Fund -->
+      <cfClassId>eda2b2dc-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Gift Document</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is gift document of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has gift document</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The initial gift document of a gift.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

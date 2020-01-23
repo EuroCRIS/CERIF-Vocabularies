@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>1eb17479-09de-49b8-9fed-1a54d697ea1c</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Research Infrastructure Statuses</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfEquipment_Classification; cfFacility_Classification; cfService_Classification link entities, being thus research infrastructure states.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Statuses; Research Infrastructure Statuses; Research Infrastructure Statuses -->
+      <!-- usage with CERIF: cfFacil_Class; cfEquip_Class; cfSrv_Class -->
+      <cfClassId>eda2da04-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Under Construction</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in state of under construction</cfRoleExpr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Statuses; Research Infrastructure Statuses; Research Infrastructure Statuses -->
+      <!-- usage with CERIF: cfFacil_Class; cfEquip_Class; cfSrv_Class -->
+      <cfClassId>eda2da05-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Being Upgraded</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in state of being upgraded</cfRoleExpr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Statuses; Research Infrastructure Statuses; Research Infrastructure Statuses -->
+      <!-- usage with CERIF: cfFacil_Class; cfEquip_Class; cfSrv_Class -->
+      <cfClassId>eda2da06-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">In Operation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in state of operation</cfRoleExpr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>dbdd1fdb-128b-414c-ba2b-fa26a25a4bc6</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Research Infrastructure</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme defines the CERIF concept of "Research Infrastructure" composed through the link entities cfEquipment_Classification, cfFacility_Classification, cfService_Classification</cfDescr>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure; Research Infrastructure; Research Infrastructure -->
+      <!-- usage with CERIF: cfSrv_Class; cfEquip_Class; cfFacil_Class -->
+      <cfClassId>cf7799ea-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Infrastructure</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Concept; MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of research infrastructure is defined as a term in the vocabulary. A research infrastructure in CERIF terms subsumes the three entities service cfService (cfSrv), equipment cfEquipment (cfEquip) and facility cfFacility (cfFacil); these are logic and physic enitites in the CERIF data model.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A European Research Infrastructure is a facility or (virtual) platform that provides the scientific community with resources and services to conduct top-level research in their respective fields. These research infrastructures can be single-sited or distributed or an e-infrastructure, and can be part of a national or international network of facilities, or of interconnected scientific instrument networks. The infrastructure should: offer top quality scientific and technological performance, that should be recognised as being of European relevance offer access to scientific users from Europe and beyond through a transparent selection process on the basis of excellence have stable and effective management</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.esf.org/activities/science-policy/research-infrastructures/meril-mapping-of-the-european-research-infrastructure-landscape/what-is-meant-by-research-infrastructures.html</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

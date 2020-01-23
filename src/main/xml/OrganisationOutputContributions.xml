@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>6b2b7d26-3491-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Organisation Output Contributions</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_ResultPublication link entity, being thus an organisation's output contribution.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Person Output Contributions; Organisation Project Engagements; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfPers_ResPubl; cfProj_OrgUnit; cfOrgUnit_ResPubl -->
+      <cfClassId>9ef1ab40-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Reviewer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is reviewer of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has reviewer</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, reviewer is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Reviewer" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A reviewer is someone who reads manuscripts and judges their suitability for publication.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=reviewer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl -->
+      <cfClassId>49815870-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Author</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is author of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has author</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">An author is the person or corporate entity responsible for producing a written work (essay, monograph, novel, play, poem, screenplay, short story, etc.) whose name is printed on the title page of a book or given elsewhere in or on a manuscript or other item and in whose name the work is copyrighted. A work may have two or more joint authors. In library cataloging, the term is used in its broadest sense to include editor, compiler, composer, creator, etc</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_e.cfm#author</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Contributions; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl; cfProj_OrgUnit -->
+      <cfClassId>7ef398b3-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Commissioner</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is commissioner of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has commissioner</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">The organisation that wishes the work to be undertaken (this might be the lead funder in a consortium funded project).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A government administrator, a member of a commission.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_t.cfm#commissioner</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Output Contributions; Organisation Output Contributions; Organisation Output Contributions; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>eda2b2d5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Reviewer Institution</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is reviewer institution of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has reviewer institution</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A reviewer institution is an organization founded and united for a specific purpose where the reviewer has a relationship.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Research Infrastructure Roles; Organisation Research Infrastructure Roles; Organisation Research Infrastructure Roles; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfOrgUnit_Facil; cfOrgUnit_Equip; cfOrgUnit_Srv; cfOrgUnit_Event -->
+      <cfClassId>eda2d9ff-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Host</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is host of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has host</cfRoleExprOpp>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>4bdfc4ac-7c74-456d-9d3b-b1e4267b90a9</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Peer Reviews</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">Whether or not the output is known to be peer-reviewed.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Peer Reviews -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>df943548-c67e-4c96-8c4f-1c0aa144b1c0</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Yes</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Where the output has been subject to assessment and critique by independent experts.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Peer Reviews -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>0c7c83d0-5513-4eaa-b5cf-d01374c3d2eb</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">No</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Where the output has not been subject to assessment and critique by independent experts.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Peer Reviews -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>22b56ddc-87e8-4023-ab56-e661dcb8ffd3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Unknown</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Where it is unknown whether the output has been subject to assessment and critique by independent experts.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

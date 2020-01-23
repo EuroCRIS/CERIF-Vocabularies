@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>6b2b7d24-3491-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Professional Relationships</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfPerson_Person link entity, being thus an interpersonal structure.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Project Engagements; Person Professional Relationships -->
+      <!-- usage with CERIF: cfProj_Pers; cfPers_Pers -->
+      <cfClassId>bc34dc30-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Co-Investigator</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is co-investigator of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has co-investigator</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, co-investigator is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Co-Investigator" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A co-investitagor is also called co-promoter (quite often from different organizations). A co-investigator, fellow worker, workfellow (an associate that one works with).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>6b2b7d22-3491-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Mentor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group, RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is mentor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has mentor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A mentor is a wise and trusted guid and advisor.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=mentor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>6b2b7d23-3491-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Supervisor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is supervisor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has supervisor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person wich the official task of overseeing the work of a person or group.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=supervisor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>ab0ed712-6e50-46a5-8fa2-5d9b87c27e6d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Co-Supervisor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is co-supervisor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has co-supervisor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Is an additional member of the supervisory team, that guides a research student through their programme of studies. Often he/she has complementory expertise to the supervisor.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>3ccd035b-bc79-477e-aa6c-0bd3606f85c8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">External Supervisor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is external supervisor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has external supervisor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A co-supervisor that is external to the host institution of the research student.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>81d0d105-216f-42f0-8c96-a87ba2adfa41</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Advisor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is advisor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has advisor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person that has an adhoc, informal input into the work of the supervisory team.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>1d689234-c537-4bba-b59a-2d85e1efcd1d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Colleague</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is colleague of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has colleague</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A co-worker, fellow worker, workfellow (an associate that one works with.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=colleague</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Professional Relationships -->
+      <!-- usage with CERIF: cfPers_Pers -->
+      <cfClassId>78883ba6-a5ac-45d4-a2e2-20b3f7f43a63</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Co-Researcher</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is co-researcher of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has co-researcher</cfRoleExprOpp>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

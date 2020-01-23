@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>63468e45-3055-4ba8-b644-6262c96f62bd</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Activity Finance Category Amounts</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The income or expenditure (actual, committed or budgeted) against a finance category for the activity (Research project).</cfDescr>
+    <cfClass>
+      <!-- class schemes: Activity Finance Category Amounts -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>7655a603-a4d7-4b92-8c87-d7e767d2c7a7</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Income-Budget</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The amount of income expected from the funder for an activity, e.g the amount awarded by the funder (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Category Amounts -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>d2c2d808-bd02-4ffc-8a76-76c3d0c9cc1f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Expenditure-Budget</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The amount of expected expenditure necessary to undertake the activity, e.g. the full economic cost (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Category Amounts -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>df1c9f14-6b87-43a1-9a5a-2d0ade88ad0b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Income-Commitment</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The amount of income expected from the funder for an activity but not yet received (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Category Amounts -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>8db551b3-e630-48a0-9164-d177f4ec3602</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Expenditure-Commitment</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The amount of expenditure committed but not yet spent, e.g an order placed but not yet paid for ((Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Category Amounts -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>df27417c-bb3c-4881-9a46-cc6403b2ca39</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Income-Actual</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The amount of actual income received from the funder for an activity (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Category Amounts -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>fe050c5b-2760-4c67-b5b6-6252257b7c61</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Expenditure-Actual</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The amount of actual expenditure on an activity, e.g. the cost incurred in undertaking the research (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

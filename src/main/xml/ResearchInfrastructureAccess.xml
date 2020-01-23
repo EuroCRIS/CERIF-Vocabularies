@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>4490bcae-1632-460d-947c-c230130c013b</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Research Infrastructure Access</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable with the cfResultPublication_Equipment; cfResultPublication_Facility; and cfResultPublication_Service link entities, being thus the documents related to access policy or terms and conditions of the Research Infrastructure.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Access; Research Infrastructure Access; Research Infrastructure Access -->
+      <!-- usage with CERIF: cfResPubl_Equip; cfResPubl_Facil; cfResPubl_Srv -->
+      <cfClassId>eda2b2dd-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Access Policy Document</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is equipment access policy document for</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has equipment access policy document</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The document specifying the access policy for the equipment, facility or service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Access; Research Infrastructure Access; Research Infrastructure Access -->
+      <!-- usage with CERIF: cfResPubl_Equip; cfResPubl_Facil; cfResPubl_Srv -->
+      <cfClassId>80be3ed3-5677-4676-b466-fa9f61d8af42</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Access Terms and Conditions</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is terms and conditions document for</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has terms and conditions document</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The document specifying the access terms and conditions for the equipment, facility or service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

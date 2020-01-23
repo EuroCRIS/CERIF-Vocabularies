@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>47c7efda-bb6e-44ad-bfd3-8be5b6b5cd02</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Activity Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The types of Research activity.</cfDescr>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Types; CERIF Entities -->
+      <!-- usage with CERIF: cfProj_Class; cfProj_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfProj -->
+      <cfClassId>cf7799e1-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Project</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of project is physically (cfProj) and logically (cfProject) defined as an entity in an ERM, represented by basic attributes and through maintaining relationships with other entities: projects (cfProj_Proj), classification systems (cfProj_Class), persons (cfProj_Pers), indicators (cfProj_Indic), measurements (cfProj_Meas). In the CERIF vocabulary, we introduce the concept of project. In the physical CERIF data model, the classification of types for projects happens with the cfProj_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning project types to project records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">A project in business and science is typically defined as a collaborative enterprise, frequently involving research or design, that is carefully planned to achieve a particular aim. Projects can be further defined as temporary rather than permanent social systems that are constituted by teams within or across organizations to accomplish particular tasks under time constraints.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Project</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity with a specific set of anticpated outputs to be produced over a speficic time-frame.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Types; Output Types; Event Types -->
+      <!-- usage with CERIF: cfProj_Class; cfEvent_Class; Event_Class -->
+      <cfClassId>909ea9bd-e460-497e-8950-9ad306675ae9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity that brings together people to discuss topics around an agreed theme.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Types -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>d7fe4a84-93a2-46f1-b1fa-165d518fba47</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Fellowship</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An award for an individual allowing to undertake generic or specific research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Types; Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class; cfProj_Class -->
+      <cfClassId>67f2c93f-37c9-4311-99e7-61d40d53b265</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Networking</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity which brings together either physically or virtually groups of people, normally over a period of time to meet and exchange information and good practice.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Types -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>4af214d4-579f-4396-aef6-9e3ce879c6be</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Infrastructure</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity to develop or maintain equipment, facilities, services or buildings.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Types -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>f74a1e84-6c96-4cab-bd51-da931c9f226d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Studentship</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">(The work undertaken by a person during) a funded research degree.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

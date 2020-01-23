@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af933-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Output Funding Roles</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfResulsPublication_Funding link entity, being thus publication funding roles and e.g. a reference to the funding programe, because the funding concept in CERIF subsumes funding programme, tender, call, and not the income as such, which would be a financial means and as such in CERIF be a measurement.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Output Funding Roles; Output Funding Roles; Output Funding Roles; Output Funding Roles; Research Infrastructure Funding Roles; Research Infrastructure Funding Roles; Research Infrastructure Funding Roles -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit; cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event; cfResPubl_Fund; cfResPat_Fund; cfResProd_Fund; cfEvent_Fund; cfFacil_Fund; cfEquip_Fund; cfSrv_Fund -->
+      <cfClassId>eda28bc0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is funder of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has funder</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation that provides funding towards the cost of an activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.businessdictionary.com/definition/funder.html</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

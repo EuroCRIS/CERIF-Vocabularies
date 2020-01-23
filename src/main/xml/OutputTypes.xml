@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af938-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Output Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfResultPublication_Classification, cfResultPatent_Classification, cfResultProduct_Classification, cfEvent_Class link entities, being thus output types.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Activity Types; Output Types; Event Types -->
+      <!-- usage with CERIF: cfProj_Class; cfEvent_Class; Event_Class -->
+      <cfClassId>909ea9bd-e460-497e-8950-9ad306675ae9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity that brings together people to discuss topics around an agreed theme.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2b2f6-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Book</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A book is a collection of leaves of paper, parchment, vellum, cloth, or other material (written, printed, or blank) fastened together along one edge, with or without a protective case or cover.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_B.cfm#book</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2b2f7-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Book Review</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A book review is an evaluative account of a recent book, usually written and signed by a qualified person, for publication in a current newspaper, magazine, or journal.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_R.cfm#review</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2b2f8-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Book Chapter Abstract</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A book chapter abstract is a brief, objective representation of the essential content of a book chapter, presenting the main points in the same order as the original but having no independent literary value.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/index.cfm#abstract</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2b2f9-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Book Chapter Review</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A book chapter review is an evaluative account of a recent book chapter, usually written and signed by a qualified person, for publication in a current newspaper, magazine, or journal.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_R.cfm#review</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Inbook</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">An inbook is a part of a book, usually untitled. May be a chapter (or section or whatever) and/or a range of pages.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/BibTeX#Entry_Types</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e1-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Anthology</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">An anthology is a collection of extracts or complete works by various authors, selected by an editor for publication in a single volume or multivolume set. Anthologies are often limited to a specific literary form or genre (short stories, poetry, plays) or to a national literature, theme, time period, or category of author.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_A.cfm#anthology</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e2-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Monograph</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A monograph is a relatively short book or treatise on a single subject, complete in one physical piece, usually written by a specialist in the field. Monographic treatment is detailed and scholarly but not extensive in scope.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_M.cfm#monograph</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e3-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Referencebook</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A referencebook is a book designed to be consulted when authoritative information is needed, rather than read cover to cover. Reference books often consist of a series of signed or unsigned "entries" listed alphabetically under headwords or headings, or in some other arrangement (classified, numeric, etc.).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_r.cfm#referencebook</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e4-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Textbook</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A textbook is an edition of a book specifically intended for the use of students who are enrolled in a course of study or preparing for an examination on a subject or in an academic discipline, as distinct from the trade edition of the same title. Also refers to the standard work used for a specific course of study, whether published in special edition or not.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_T.cfm#textbook</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Encyclopedia</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">called Encyclopedia entries in CASRAI Dictionary</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">An enzyclopedia is a book or numbered set of books containing authoritative summary information about a variety of topics in the form of short essays, usually arranged alphabetically by headword or classified in some manner. An entry may be signed or unsigned, with or without illustration or a list of references for further reading. Headwords and text are usually revised periodically for publication in a new edition.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_E.cfm#encyclopedia</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e6-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Manual</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A manual refers to a book or pamphlet containing practical instructions, rules, or steps for performing a task or operation, assembling a manufactured object, or using a system or piece of equipment. Used synonymously with handbook (ODLIS Dictionary). A manual is a book that tells you how to do or operate something, especially one that comes with a machine (Grey Literature Typology.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_M.cfm#manual (ODLIS Dicationary); http://purl.org/ntk/gltype#manual (Grey Literature Typology)</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e7-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Otherbook</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Uncertain of definition</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">To books not specified other places?</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e8-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Journal</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A journal is a periodical devoted to disseminating original research and commentary on current developments in a specific discipline, subdiscipline, or field of study (example: Journal of Clinical Epidemiology), usually published in quarterly, bimonthly, or monthly issues sold by subscription (click here to see an example). Journal articles are usually written by the person (or persons) who conducted the research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_J.cfm#journal</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9e9-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Journal Article</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; HEFCE; CASRAI</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A journal article is a self-contained nonfiction prose composition on a fairly narrow topic or subject, written by one or more authors and published under a separate title in a collection or periodical containing other works of the same form.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_A.cfm#article</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9ea-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Journal Article Abstract</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A journal article abstract is a brief, objective representation of the essential content of an article, presenting the main points in the same order as the original but having no independent literary value.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/index.cfm#abstract</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9eb-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Journal Article Review</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A journal article review is an evaluative account of a recent of a newly published literary or scholarly work, usually written and signed by a qualified person, for publication in a current newspaper, magazine, or journal.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_R.cfm#review</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9ec-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference Proceedings</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A conference proceeding is a collection of articles, published abstracs or posters gathered from a conference. Can have several editors.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Pure4 Working group - DK</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9ed-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference Proceedings Article</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">called Conference Paper in CASRAI Dictionary</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">A conference proceedings article is an article that has been presented at a conference. Articles has been collected and published in a proceeding.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Pure4 Working group - DK</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9ee-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Letter</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A letter (also known as "communication") is a brief description of important new research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Pure4 Working group - DK</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9ef-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Letter to Editor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A letter, usually printed at the discretion of the publisher on the editorial page of a newspaper or magazine, in which a reader expresses his or her views on the subject of a previously published article or editorial, or on the editorial policy of the publication in general, sometimes followed by a brief response from the editor(s).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_l.cfm#lettereditor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">PhD Thesis</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A PhD Thesis, is a Dissertation/Thesis that leads to the acquirement of a Ph.D. Degree.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Pure4 Working group - DK</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f1-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Doctoral Thesis</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">called Dissertation in CASRAI Dictionary.</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">A Doctoral Thesis is a Dissertation/Thesis that leads to the acquirement of a doctoral degree.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Pure4 Working group - DK</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f2-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Report</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; Grey Literature Typology; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://purl.org/ntk/gltype#report</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A report is a separately published record of research findings, research still in progress, or other technical findings, usually bearing a report number and sometimes a grant number assigned by the funding agency.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_R.cfm#report</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f3-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Short Communication</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A short communication is a concise, but independent report representing a significant contribution to a subject.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ejbiotechnology.info/iaformato/short_communications.html</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f4-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Poster</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A poster is a visual presentation of an academic subject presented at a conference.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Pure4 Working group - DK</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Presentation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Uncertain of definition</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Presentation as in a speech? Paper presentation at a conference?</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f6-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Newsclipping</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">called Newspaper Article in CASRAI Dictionary</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">A newsclipping is an article published in a newspaper, newsmagazine, or online news service, reporting the details of a current event or the latest information on a topic of general interest. News stories are usually short and often unattributed.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_N.cfm#newsstory</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f7-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Commentary</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A commentary is a written explanation or criticism or illustration that is added to a book or other textual material.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Commentary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>eda2d9f8-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Annotation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">An annotation is a brief note, usually no longer than two or three sentences, added after a citation in a bibliography to describe or explain the content or message of the work cited or to comment on it.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_A.cfm#annotation</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>640b32f5-da23-47e4-961d-46d106cc06b9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Transliteration</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">Rendering the characters of one alphabet in characters representing the same sound (or sounds) in another alphabet (example: Greek or Cyrillic into Roman). Each character is treated independently of the others.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_A.cfm#transliteration</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>f04aabeb-ee05-46b6-a7e8-1dc35bfd3c5d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Translation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">A passage from a speech or written work, or an entire speech or work, put into the words of another language (English into Spanish) or into a more modern form of the same language (Old English or Middle English into contemporary English), usually to make the text more accessible to individuals who are unable to read it in the original language. Translations differ in the degree to which they follow the original. The name of the translator usually appears on the title page of a book, following the name of the author. A translation may have a parallel title in the source language. In library cataloging, the note Translation of: is added in the bibliographic description, giving the title in the original language.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_A.cfm#translation</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Translations of books and articles that identify modifications to the original edition, such as a new or revised preface.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/documents/non-academic-funding-cv/1.1/contributions/outputs/publications/translations</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>2522c045-5090-4da2-824c-583e039e23b3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Authored Book</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Books written by a single author or collaboratively based on research or scholarly findings generally derived from peer reviewed funding.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/documents/non-academic-funding-cv/1.1/contributions/outputs/publications/books</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>f5e38c52-d56a-4878-879c-31526788b19d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Edited Book</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Books edited by a single author or collaboratively for the dissemination of research or scholarly findings that generally result from peer reviewed funding.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/documents/non-academic-funding-cv/1.1/contributions/outputs/publications/edited-books</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>b7ddff91-81b9-42b1-8228-190329ea6557</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Chapter in Book</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">One of two ore more major divisions of a book or other work, each complete in itself but related in theme or plot to the division preceding and/or following it. In works of nonfiction, chapters are usually given a chapter title, but in works of fiction they may simply be numbered, usually in roman numerals. Chapters are listed in order of appearance by title and/or number in the table of contents in the front matter of a book.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.abc-clio.com/ODLIS/odlis_c.aspx#chapter</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Texts written by a single author or collaboratively based on research or scholarly findings and expertise in a field.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/documents/non-academic-funding-cv/1.1/contributions/outputs/publications/book-chapters</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>af3f2342-4724-4d04-8246-cc30f50a4f6d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Scholarly Edition</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A scholarly edition of a text is an edition that is reliable and useful for scholarly purposes. In order to fulfill such purposes, a scholarly edition must live up to high standards.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.iva.dk/bh/core%20concepts%20in%20lis/articles%20a-z/scholarly_edition.htm</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>43afa201-2979-42b0-b283-ed609058d90a</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference Contribution</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/search/Conference</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>3acbc6f9-8b04-4117-8222-f39c84c7b6c6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Working Paper</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Preliminary versions of articles that have not undergone review but that may be shared for comment.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/documents/non-academic-funding-cv/1.1/contributions/outputs/publications/working-papers</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>93a40595-c066-4cb3-99a1-68f451e3a7cc</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Artefact</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">Something made or given shape by man, such as a tool or a work of art, esp an object of archaeological interest.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.thefreedictionary.com/artefact</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>2a10d453-7128-45dc-b5b0-040c0d06c7d7</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Devices and products</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfEvent_Class -->
+      <cfClassId>2e0a25cd-88b5-4018-8de2-c12b3a702cfe</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Performance</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">called Performance Art in CASRAI Dictionary</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">Collection of information records that, in combination, represent a full and up-to-date history of artistic or performance outputs resulting from, or related to, the person's research or scholarly activities. Works may be produced alone or collaboratively as a creative practice that lead to production and dissemination.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfEvent_Class -->
+      <cfClassId>71e46c84-243c-410f-9f61-63ec75323c8b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Exhibition</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">called Artistic Exhibition in CASRAI Dictionary</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">Showings of works of art under the direction of a curator, an artist or as a graduation exhibition.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/artistic-exhibitions</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPat_Class -->
+      <cfClassId>274e99d8-1e36-4b3e-a998-2a3384e79f64</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Patent / published patent application</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">called intellectual property in CASRAI: Collection of information records that, in combination, represent a full and up-to-date history of the intellectual property owned by the person and resulting from, or related to, the person's research activities.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class; cfResProd_Class; cfResPat_Class -->
+      <cfClassId>6a49719d-1226-454b-bff5-04b6fd3f141c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Composition</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/search/Composition</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class; cfResProd_Class; cfResPat_Class -->
+      <cfClassId>ab0efef8-6ef2-4509-ae10-8ccce30075d9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Design</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/search/Design</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>032f0d65-2461-492d-b718-2788ef5db869</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research report for external body.</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>ca47658a-322d-4010-94e6-81401dc5b565</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Confidential Report (for external body).</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>5b90f961-6489-4500-bb6a-5b60ead25a2d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Software</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary; Grey Literature Type</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Software is a generic term for computer programs and their associated documentation, as opposed to data used as input and generated as output.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://purl.org/ntk/gltype#software</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>898beff1-5f9d-4b8f-b9d8-660a783fae9a</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Website content</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary; Grey Literature Type</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">A website is a collection of related web pages, images, videos or other digital assets that are addressed relative to a common Uniform Resource Locator (URL), often consisting of only the domain name, or the IP address, and the root path ('/') in an Internet Protocol-based network. A web site is hosted on at least one web server, accessible via a network such as the Internet or a private local area network.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://purl.org/ntk/gltype#website</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Stand-alone locations on the web where multiple types of information on a specific theme are available. May include interactive features for contributions from readers.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/search/Website</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>3c610d3c-b62a-4889-811b-dc9dbe40b847</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Digital or visual media</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>b8da9b81-7cd8-4b33-88c5-28b41bbc49c9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research data sets and databases</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">called Data set in CASRAI</cfEx>
+      <cfDef cfLangCode="en" cfTrans="o">A series of structured observations, measurements or facts identified from the research which can be stored in a database medium.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs/data-sets</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>7eb3f358-bfc1-45d4-9ec6-b16d99f0ded6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Other</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE; RMAS project; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/media/ref/content/subguide/11.Output_requirements.XLSX</cfDescrSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>a85940d9-ad65-4a8d-ae54-23dda97c406e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Journal Issue</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Periodical publications aimed at fostering intellectual debate and inquiry. Special journal issues are produced by editors with an established record of scholarship in the field and able to provide the direction of the theme. Journal issues bear a unique number of reference for publication.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/journal-issues</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResProd_Class -->
+      <cfClassId>b135c301-61d0-4d05-be98-e959f5c221dc</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Supervised Student Publications</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Articles on research findings published jointly with or supervised by the thesis advisor. The findings relate to research undertaken by the student or the supervisor’s program of research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/supervised-student-publications</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>3f8f2c15-fbea-4b38-b517-3901378a9f1b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Encyclopedia Entry</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Authored entries in a reference work or a compendium focusing on a particular domain or on all branches of knowledge.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/encyclopedia-entries</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>d4753dda-e7a0-4837-ae7d-648a8d85b62c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Magazine Article</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Articles in thematic publications published at fixed intervals.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/magazine-articles</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>71361e1a-03f1-4577-b91b-01cb87a2c280</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Dictionary Entry</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Entries of new words, new meanings of existing words, changes in spelling and hyphenation over a longer period of time, and grammatical changes.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/dictionary-entries</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>a79aca4a-3a43-4809-92a6-9ce690dd7f70</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Tool</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Series of observations, measurements or facts identified from the research. They include bibliographies, indices and catalogues of research collections; concordances and dictionaries; materials that facilitate access to archival holdings or collections such as repository guides, inventories of a group of manuscripts or of a body of archives, inventories or documentary materials, thematic guides to archival materials, records surveys and special indices; scholarly editions; and data series.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/research-tools</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>db7bca87-379e-4854-a0d6-f9567226b1a6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Online Resource</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Information accessible only on the web via traditional technical methods (ie hyperlinks).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/online-resources</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>6915f869-e12e-42e8-b1b7-13bbea303d64</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Test</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Assessments that include tests designed for general university selection, selection into specific courses or other evaluation purposes.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications/tests</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>154e80ab-e825-4f7c-9430-bdf7ee971425</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference Abstract</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Texts of a specified length that states the issue to be discussed in a proposed conference paper. It serves as the basis for the acceptance of the paper at a conference. The abstract is published along with the paper.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/conferences/conference-abstracts</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>93aa5afc-19e5-4995-99b5-47ee8c80b3fc</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Conference Poster</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Posters displayed in a conference setting and conveying research highlights in an efficient manner by compelling graphics. They may be peer-reviewed prior to acceptance and be published in the proceedings.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/conferences/conference-posters</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>d7e9d33a-20d4-447c-bd3f-6774afa23f4e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Musical Composition</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Original musical scores available in a format for dissemination.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/musical-compositions</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>849fcbfa-f863-4e80-b7b9-811ccc1fb9c1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Musical Performance</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Original musical scores available in a format for dissemination.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/musical-performances</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>ca4665dc-d9da-49c3-950d-f95699e28b10</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Radio/TV Program</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Programming produced for and broadcast on radio or TV.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/radiotv-programs</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>488c227d-ade1-45c5-bf13-77cec1e5033c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Script</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Written versions of a play, film, broadcast or other dramatic composition used in preparing for a performance and annotated with instructions for the performance.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/scripts</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>68bade0c-2ac6-4dd9-834e-dec1583a607f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Short Fiction</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Original literary texts (prose or poetry).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/short-fiction</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>c8b9bf7b-bb0c-493b-82aa-db9a5834f61e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Theatric</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Creation, production, dissemination of plays by professional theatre artists and organizations. The artifacts, such costumes, props, sets and scripts, may be the object of a public exhibit.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/theatric</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>b4a6438e-4bcb-4d8b-9363-4f6488861249</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Video Recording</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Works such as film, video, or new media developed as a result of an artistic practice. May serve for commercial purposes.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/video-recordings</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>2dedf523-a6eb-4bfc-87e0-bc046e20f551</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Visual Artwork</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Works such as film, video, or new media developed as a result of an artistic practice. May serve for commercial purposes.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/visual-artworks</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>5d46488d-2952-4c31-bcca-84cd3f13fe7e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Sound Design</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Art and process of manipulating audio elements to achieve a desired effect. It is employed in a variety of disciplines including film, theatre, music recording, and live music performance. It involves the manipulation of previously composed audio or the creative composition of new audio.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/sound-design</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>af08e1af-3d31-4b58-8ef1-8d5fc714a743</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Set Design</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Creations of theatrical, as well as film or television scenery (also known as stage design, scenic design or production design).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/set-design</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>41555114-5fdb-4ee9-b5e7-b3acb574310d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Light Design</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Works done within theatre or in relation to an art installation to design a production.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/light-design</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfEvent_Class -->
+      <cfClassId>77c9c66f-9e65-4876-8e82-34ac7c50582d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Choreography</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Dance compositions created for production and dissemination.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance/choreography</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>8b5e666b-6121-4b4d-b446-9ed6ad7ed35c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Curatorial/Museum Exhibitions</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Collection of information records that, in combination, represent a full and up-to-date history of the intellectual property owned by the person and resulting from, or related to, the person's research activities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/conferences</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>64b9ce43-e5ed-4df2-86d5-01bc46939fd5</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Intellectual Property</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Collection of information records that, in combination, represent a full and up-to-date history of the intellectual property owned by the person and resulting from, or related to, the person's research activities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>2d8d91dc-00ef-4982-a6d2-0700b34b47fd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">License</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Signed agreements to exploit a piece of IP such as a process, product, data, or software.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property/licenses</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>170136af-8bec-4b17-af16-c738633a3b96</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Disclosure</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Publications that establish inventions as prior art thereby preventing others from patenting the same invention or concept.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property/disclosures</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>0f38dfac-b08c-4ed9-b627-df8f95d74bd5</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Registered Copyright</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Registered ownership of rights under a system of laws for promoting both the creation of and access to artistic, literary, musical, dramatic and other creative works.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property/registered-copyrights</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>723f6119-ffac-4f4c-99d2-9c34eb644115</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Trademark</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Marks such as a name, word, phrase, logo, symbol, design, image of a product or service that indicates the source and provides the right to control the use of the identifier.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property/trademarks</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>6b7fdebc-f169-4a7a-89b4-539ff69c5dcd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Standard and Policy</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The development of a rule or principle that is used as a basis for judgement.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs/standards-and-policies</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>c03694e5-f58b-4a37-83ff-5f8285c67f66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Technical Standard</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Technical Standards (industrial or otherwise) that have originated from the research projects in which new protocols, methods or materials may be developed.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs/technical-standards</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>b8b97010-577d-4ba2-9195-0b6cba3f0866</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Techniques</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A practical methods or skills applied to particular tasks identified as part of the research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs/research-techniques</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>76cf4c24-7f15-41b9-995f-889cec876b30</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Invention</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Practical and original outputs arising from research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs/inventions</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Types -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>88478041-0fa4-4396-9246-6985ec0e9e6e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Litigation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The act or process of contesting at law.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs/litigation</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

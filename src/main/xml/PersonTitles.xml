@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+	<cfClassScheme>
+		<cfClassSchemeId>b93fc7ba-90be-4825-a1fd-363bd2fd1432</cfClassSchemeId>
+		<cfName cfLangCode="en" cfTrans="o">Person Titles</cfName>
+		<cfDescr cfLangCode="en" cfTrans="o">The personal honorific titles (may be more than one).</cfDescr>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>8f558c1a-be74-4d3c-8f19-fdd645b61c0a</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Dr</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>bd2600ce-3bcf-4193-be07-8beaa76b91dd</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Miss</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>3bd6c3dd-7132-465e-923b-d7ceeeda93d6</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Mr</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>2e7190cc-51b9-49d3-a11d-bc739e3dabfb</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Mrs</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>09bc5967-6b4c-4815-ac8e-1a5a5eb8ee03</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Ms</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Organisation Roles; Person Titles -->
+			<!-- usage with CERIF: cfPers_OrgUnit, cfPers_Class -->
+			<cfClassId>3bb53320-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Professor</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+			<cfRoleExpr cfLangCode="en" cfTrans="o">is professor at</cfRoleExpr>
+			<cfRoleExprOpp cfLangCode="en" cfTrans="o">has professor</cfRoleExprOpp>
+			<cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, professor is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Professor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+			<cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+			<cfDef cfLangCode="en" cfTrans="o">A professor is someone who is a member of the faculty at a college or university.</cfDef>
+			<cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=professor</cfDefSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>27a398fa-0ea6-4445-95de-53a32e839b4d</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Reverend</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>2a5de419-4144-42fe-8e4b-73dca8c54f8d</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Sir</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Organisation Roles; Person Titles -->
+			<!-- usage with CERIF: cPers_OrgUnit; cfPers_Class -->
+			<cfClassId>a27e5ca7-3d20-4272-9054-7db550e2a053</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Associate</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+			<cfRoleExpr cfLangCode="en" cfTrans="o">is associate of</cfRoleExpr>
+			<cfRoleExprOpp cfLangCode="en" cfTrans="o">has associate</cfRoleExprOpp>
+			<cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, associate is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Associate" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+			<cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+			<cfDef cfLangCode="en" cfTrans="o">An associate is a person with subordinate membership in a society, institution, or commercial enterprise.</cfDef>
+			<cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=associate</cfDefSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>a944b6ae-e2be-40e0-a33e-e5da5db6ea89</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Dame</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>1e83ced2-47e7-4e01-a7b9-ec78291d979c</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Emeritus</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+		<cfClass>
+			<!-- class schemes: Person Titles -->
+			<!-- usage with CERIF: cfPers_Class -->
+			<cfClassId>d0d64e35-d7dd-443d-8d77-96ee4ad8023b</cfClassId>
+			<cfTerm cfLangCode="en" cfTrans="o">Colonel</cfTerm>
+			<cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+		</cfClass>
+	</cfClassScheme>
+	
+</CERIF>

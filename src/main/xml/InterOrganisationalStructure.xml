@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>cf7772d0-3477-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Inter-Organisational Structure</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_OrganisationUnit link entity, being thus an inter-organisational structure.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_OrgUnit -->
+      <cfClassId>cb3e0010-1cd7-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Member</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is member of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has member</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, the member role happens e.g. within the relationships person-organisation, person-project; organisation-organisation, that is, the classification term (cfTerm) "Member" identified by its cfClassificationIdentifier (a uuid), and reused with e.g. the cfPerson_OrganisationUnit; cfProject_Person; cfOrganisationUnit_OrganisationUnit relationships. A person can be a member of multiple organisations. An organization can be a member of another organization, or a state that belongs to a group of nations.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A member is anything that belongs to a set or class.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=member</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure; Person Funding Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_Fund; cfPers_Fund -->
+      <cfClassId>79a2e340-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Manager</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is manager of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has manager</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, the manager role happens e.g. within the relationships person-organisation or person-project; that is, the classification term (cfTerm) "Manager" identified by its cfClassificationIdentifier (a uuid), and reused with the e.g. cfPerson_OrganisationUnit or cfProject_Person relationships.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A manager is someone who controls resources and expenditures.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit -->
+      <cfClassId>c9a24a22-d3f2-4b15-aa06-cb512b2f1341</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Auditor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is auditor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has auditor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, auditor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Auditor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An official whose job it is to carefully check the accuracy of business records. An auditor can be either an independent auditor unaffiliated with the company being audited or a captive auditor, and some are elected public officials. The term is sometimes synonymous with "comptroller." Auditors are used to ensure that organizations are maintaining accurate and honest financial records and statements.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.investopedia.com/terms/a/auditor.asp#ixzz238Yb6H7h</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
+      <cfClassId>abf21190-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Contractor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is contractor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has contractor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, contractor is a role in the e.g. person-organisation relationship; that is, the classification term (cfTerm) "Contractor" identified by its cfClassificationIdentifier (a uuid) and reused in the e.g. cfPerson_OrganisationUnit entity.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation contracted to undertake a specific bounded (time and specification) subset of an activity. Normally such an organisation would not retain an interest in any IP generated from the activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A contractor is someone (a person or firm) who contracts to build things, (law) a party to a contract.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=contractor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Person Employment Types; Person Project Engagements -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfPers_OrgUnit; cfPers_Proj -->
+      <cfClassId>eda28bc5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Supporter</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is supporter of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has supporter</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">The person not directly involved in the activity but contributing to maintaining the infrastructure.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A supporter is someone who supports or champions something.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=supporter</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Output Funding Roles; Output Funding Roles; Output Funding Roles; Output Funding Roles; Research Infrastructure Funding Roles; Research Infrastructure Funding Roles; Research Infrastructure Funding Roles -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit; cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event; cfResPubl_Fund; cfResPat_Fund; cfResProd_Fund; cfEvent_Fund; cfFacil_Fund; cfEquip_Fund; cfSrv_Fund -->
+      <cfClassId>eda28bc0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is funder of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has funder</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation that provides funding towards the cost of an activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.businessdictionary.com/definition/funder.html</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Activity Structure; Inter-Publication Relations; Inter-Patent Relations; Inter-Product Relations; Inter-Event Relations; Inter-Facility Relations; Inter-Equipment Relations; Inter-Service Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_Proj; cfFund_Fund; cfResPubl_ResPubl; cfResPat_ResPat; cfResProd_ResProd; cfEvent_Event; cfFacil_Facil; cfEquip_Equip; cfSrv_Srv -->
+      <cfClassId>eda28bc1-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Part</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is part of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has part</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A part is a portion, division, piece, or segment of a whole.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.thefreedictionary.com/part</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Activity Structure; Inter-Organisational Structure; Activity Structure; Inter-Publication Relations; Inter-Patent Relations; Inter-Product Relations; Inter-Event Relations; Inter-Facility Relations; Inter-Equipment Relations; Inter-Service Relations; Activity Output Contributions; Activity Output Contributions; Activity Output Contributions; Inter-Output Relations; Inter-Output Relations; Inter-Output Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_Proj; cfFund_Fund; cfResPubl_ResPubl; cfResPat_ResPat; cfResProd_ResProd; cfEvent_Event; cfFacil_Facil; cfEquip_Equip; cfSrv_Srv; cfResProd_cfResProd; cfResPat_cfResPat; cfFacil_Equip; cfEquip_Srv; cfFacil_Srv; cfEvent_Srv; cfProj_ResPubl; cfProj_ResPat; cfProj_ResProd; cfResPubl_ResProd; cfResPubl_ResPat; cfResPubl_ResProd; cfResPubl_ResPat; -->
+      <cfClassId>eda28bc2-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Relation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is related to</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has relation</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">A relationship.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An abstraction belonging to or characteristic of two entities or parts together.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Relation</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Mereotopological Structure -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit -->
+      <cfClassId>eda28bc3-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Acquisition</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is acquired by</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has acquired</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">An acquisition is the act of contracting or assuming or acquiring possession of something</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=acquisition</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Mereotopological Structure -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit -->
+      <cfClassId>eda28bc4-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Takeover</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is taken over by</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has taken over</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A takeover is a change by sale or merger in the controlling interest of a corporation.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=takeover</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
+      <cfClassId>eda28bc6-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Stakeholder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is stakeholde of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has stakeholder</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A corporate stakeholder is a party that can affect or be affected by the actions of the business as a whole.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Stakeholder_(corporate)</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit -->
+      <cfClassId>eda28bc7-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Merger</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is merger of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has merger</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A merger is a voluntary amalgamation of two firms on roughly equal terms into one new legal entity. Mergers are effected by exchange of the pre-merger stock (shares) for the stock of the new firm. Owners of each pre-merger firm continue as owners, and the resources of the merging entities are pooled for the benefit of the new entity. If the merged entities were competitors, the merger is called horizontal integration, if they were supplier or customer of one another, it is called vertical integration.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.businessdictionary.com/definition/merger.html</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Activity Structure; Inter-Publication Relations; Inter-Patent Relations; Inter-Product Relations; Inter-Event Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_Proj; cfResPubl_ResPubl; cfResPat_ResPat; cfResProd_ResProd; cfEvent_Event -->
+      <cfClassId>eda28bca-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Successor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is successor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has successor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A successor is someone who, or something which succeeds or comes after.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Successor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Activity Structure; Inter-Publication Relations; Inter-Patent Relations; Inter-Product Relations; Inter-Event Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_Proj; cfResPubl_ResPubl; cfResPat_ResPat; cfResProd_ResProd; cfEvent_Event -->
+      <cfClassId>eda28bcb-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Predecessor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is predecessor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has predecessor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Something that precedes and indicates the approach of something or someone.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=predecessor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Project Outcome Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
+      <cfClassId>eda28bcc-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Spin-Off</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CASRAI Dictionary</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is spin-off from</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has spin-off</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A spin-out, also known as a spin-off or a starburst, refers to a type of corporate action where a company "splits off" sections of itself as a separate business.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Corporate_spin-off</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Structure; Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfProj_Proj; cfOrgUnit_OrgUnit -->
+      <cfClassId>eda2b2d7-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Cooperation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in cooperation with</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has cooperation</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A cooperation is the collaborative work on a common enterprise or project.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>c855b95d-bf01-44eb-a1f3-17b0f0901599</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Activity Finance Categories</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The type of cost of an activity.</cfDescr>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Finance Categories; Activity Subtypes; CERIF Entities -->
+      <!-- usage with CERIF: cfFacil_Class; Proj_Meas; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfFacil -->
+      <cfClassId>cf7799e7-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Facility</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of Facility (also Research Facility) is physically (cfFacil) and logically (cfFacility) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Facil), organisations (cfOrgUnit_Facil), classification systems (cfFacil_Class), projects (cfProj_Facil). In the physical CERIF data model, the classification of types for facility happens with the cfFacil_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning facility types to facility records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The full economic cost associated with the running of the institutional research facilities and equipment used in an activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A facility is a space or equipment necessary for conducting research (CERIF Entity). The full economic cost associated with the running of the institutional research facilities and equipment used in an activity (Activity Finance Category). The specification, procurement and installation of a facility (Activity Subtype).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group; http://www.jcpsg.ac.uk/guidance/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Finance Categories; CERIF Entities -->
+      <!-- usage with CERIF: cfEquip_Class; cfProj_Meas; cfProj_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfEquip -->
+      <cfClassId>cf7799e8-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Equipment</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of equipment is physically (cfEquip) and logically (cfEquipment) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Equip), organisations (cfOrgUnit_Equip), classification systems (cfEquip_Class), projects (cfProj_Equip). In the physicial CERIF data model, the classification of types for equipment happens with the cfEquip_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning equipment types to equipment records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The costs associated with the purchase of equipment normally above a price threshold, e.g 1.000 GBP (Activity Finance Category). The specification, procurement and installation of equipment Activity Subtype).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Equipment is an instrumentality needed for undertaking or to perform a service (CERIF Entity). The costs associated with the purchase of equipment normally above a price threshold, e.g 1.000 GBP (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=equipment; RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Employment Types; Person Project Engagements; Activity Finance Categories -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfProj_Meas -->
+      <cfClassId>8adcdf20-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Technician</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is technician at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has technician</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, technician is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Technician" identified by its cfClassificationIdentifier (a uuid) and reused inlink entities. (CERIF Task Group) A permanent Research staff. (RMAS project)</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The full economic cost associated with pool technicians used in the activity (Activity Finance Category). Someone, whose duties include the construction, maintenance and operation of the equipment involved in laboratory research; the preparation of samples that constitute the raw material for experiments; the running of those experiments; and the recording, presentation and - on occations - some of the analysis and interpretation of the data that is produced. In undertaking these tasks, technicians work closely with academic researchers and make an indispensible contribution to the production of scientific knowledge, and through formal, and, in particular, informal contributions to the teaching of practical skills, they help to educate students (http://www.kcl.ac.uk/sspp/departments/management/people/academic/lewisgatsbyreport.pdf).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A technician is someone known for high skill in some intellectual or artistic technique.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=technician</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories; Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Meas; cfProj_Class -->
+      <cfClassId>fe3ef479-0a35-4b3e-93e8-f54800c98857</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Travel</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The costs associated with travel and subsistence (Activity Finance Category). A physical networking activity normally associated with a single or short series of visits (Activity Subtypes).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>77a49137-eb32-4a30-9fff-14ce3eb4413f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Staffing Existing</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The costs associated with staff under an existing employment contract including salary and employer tax and pension contributions (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>f81be4da-59bb-4718-949a-6e47b0fa2868</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Staffing New</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The costs associated with staff specifically employed to work on the activity (i.e. additional staff) including salary and employer tax and pension contributions (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>fa67d8ad-46eb-499a-9b9b-2b681b3d9485</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Consumables</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The costs associated with small cost items, e.g. a office stationary, software (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>5845512f-64ce-4cbe-b4c7-4c8794ab0242</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Other Non-Staffing</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The costs associated with any other directly incurred items (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>dd9bb430-17b3-4064-bd1f-528237bd4e48</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Payment-To-Partner</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The funding allocated from the funder to project partner, e.g. funds received from the funder by the co-ordinator on behalf of the partners (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>fb8a8939-0659-4cdf-b186-f8430566e845</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Estates</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The full economic cost associated with the running of the institutional physical estate (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>6d81aa21-e667-4778-bc97-c59e0cc3fa18</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Indirect Costs</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The full economic cost associated with the other indirect costs associated with research, e.g. a proportion of HR, Finance, IT, Library, etc. ((Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories -->
+      <!-- usage with CERIF: cfProj_Meas -->
+      <cfClassId>b2aeb46d-3ae2-4df6-aaad-079a339da9d2</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">fEC Balancing Amount</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The difference between the full economic costs of an activity and the budget/income/expenditure, e.g. for an 80%-funded activity of 50.000 this would be the 10.000 amount not received from the funder (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

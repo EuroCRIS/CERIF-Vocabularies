@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>7e21f287-2c00-443b-ae61-fd9ed9e71333</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Funder Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The types of funding organisations defined by HESA: http://www.ref.ac.uk/media/ref/content/subguide/01_12a.pdf (page 11)</cfDescr>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>3a48310a-fb4a-4177-bb92-cf1aeb0efebb</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">EU Government Bodies (including EC)</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from all government bodies operating in the EU, which includes the European Commission but excludes bodies in the UK.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>c54a63e9-d59d-4bf9-9b81-23b538de8fd6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">EU Other</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">EU-based non-competitive charities and any other EU income that cannot otherwise be allocated more specifically.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>0e737bcb-2fec-4c40-90f7-f9aefd8dac8f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Other Services</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Income services that cannot otherwise be allocated more specifically.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>dd8df2e3-c481-452f-b9c9-6e426386017f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UK-based Industry Commerce &amp; Public Corporations</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from industrial and commercial companies and public corporations (defined as publicly owned trading bodies, usually statutory corporations, with a substantial degree of financial independence) operating in the UK.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>032fcb89-8340-4fe3-a5e4-b1191cf6bc31</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Councils</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">The sources of income from BBSRC, MRC, NERC, EPSRC, ESRC, AHRC, STFC, The Royal Society, British Academy, The Royal Society of Edinburgh</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>874653df-8ced-4ae6-a8ed-449c42f18082</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UK-based Charities</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from all charitable foundations, charitable trusts etc., based in the UK which are registered with the Charities Commission exempt Research Counculs, central government bodies/local authorities, health &amp; hospital authorities. Those organisations recognised as charities by the Office of the Scottish Charity Regulator (OSCR) in Scotland.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>3093abcb-c0d7-4cb7-a5a6-82f40e798811</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UK Central / Local Government Health and Hospital</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from UK central government bodies, UK local authorities and UK health and hospital authorities, except Research Councils and UK public corporations. This should include government departments, and other organisations (including registered charities) financed from central government funds. Research grants and contracts income from non-departmental public bodies (NDPBs), including the British Council, should be included under this column.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>bf682b89-0ce7-4fdc-ac67-35bfd2be436e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">EU-based Charities</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from an EU body with exclusively charitable purposes consistent with the definition set out in the Charities Act 2006 and which exists for the public benefit in a manner which is consistent with the Public Benefit Guidance published by the Charity Commission for England and Wales (http://www.charitycommission.gov.uk/publicbenefit/publicbenefit.asp ).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>abb6de22-ad1b-439a-944f-9e90544a2c0f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Other Overseas</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from industrial and commercial companies and public corporations (defined as publicly owned trading bodies, usually statutory corporations, with a substantial degree of financial independence) operating from outside the EU.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>b2a4dd0d-2bbb-4089-8826-99894262e7b3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">EU-based Industry</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from industrial companies operating in the EU outside of the UK. Such income received from a multinational company should be coded depending on the location of the office making the award, e.g. a multinational with a French subsidiary making the award would be coded EU other, where UK is excluded from the EU.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>7c32bcd0-0c34-4103-8d10-a3908b041b06</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">EU Commerce &amp; Public Corporations</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from commercial companies and public corporations (defined as publicly owned trading bodies, usually statutory corporations, with a substantial degree of financial independence) operating in the EU outside of the UK. Such income received from a multinational company should be coded depending on the location of the office making the award, e.g. a multinational with a French subsidiary making the award would be coded EU other, where UK is excluded from the EU.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>46df9200-e355-45e7-84e7-fdda25dc14ac</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Non-EU-based Industry</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from industrial and commercial companies and public corporations (defined as publicly owned trading bodies, usually statutory corporations, with a substantial degree of financial independence) operating outside of the EU. Such income received from a multinational company should be coded depending on the location of the office making the award, e.g. a multinational with a US subsidiary making the award would be coded Other overseas.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>b1ec752b-de87-4377-9c28-87b84ac17845</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Non-EU-based Commerce &amp; Public Corporations</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from commercial companies and public corporations (defined as publicly owned trading bodies, usually statutory corporations, with a substantial degree of financial independence) operating outside of the EU. Such income received from a multinational company should be coded depending on the location of the office making the award, e.g. a multinational with a US subsidiary making the award would be coded Other overseas, i.e. from outside the EU.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>92c1c6c0-b3ba-4edf-b34c-bc6ee14bc756</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Non-EU-based Charities</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from a Non-EU body with exclusively charitable purposes consistent with the definition set out in the Charities Act 2006 and which exists for the public benefit in a manner which is consistent with the Public Benefit Guidance published by the Charity Commission for England and Wales (http://www.charitycommission.gov.uk/publicbenefit/publicbenefit.asp). Grants and contracts income from overseas charity bodies operating outside the EU.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>5ca5a3e7-70b8-4f39-a480-b4989f67e7da</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Other Sources</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income not to be allocated more specifically. This should include income from other higher education institutions (HEIs).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>8c6c81e3-6efc-49a6-a7a7-5cd13345d50f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Donations</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants received as a Donation.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>78e3de8c-ee32-4ec8-8cc0-6b5f664e6ca1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Institution-based</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants allocated by the institution.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>62d67cb9-2fc5-4afb-a95f-582d55ed916b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">KTP Grants</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Income from Knowledge Transfer Partnerships (KTPs) apart from any portion in respect of studentships or tuition fees.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>94b8e8e8-5279-4bc2-8b15-b96dc3dc7ff5</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Non-EU Other</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Non-EU-based non-competitive charities and any other Non-EU income that cannot otherwise be allocated more specifically.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>af3b394e-61f3-431d-8a90-f7cb972993e7</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UK-based Government Bodies</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income from all government bodies operating in the UK.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funder Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>ab2e7af8-7043-4533-a60b-9752f28acbdd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UK Other Sources</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project; HESA</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Grants and contracts income not covered by other types. This should include income from other higher education institutions (HEIs).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_content&amp;task=view&amp;id=1317&amp;Itemid=233</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

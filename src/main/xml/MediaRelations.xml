@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>40d45f50-db4b-449c-b4f6-ae202b220e5a</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Media Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in link entities relating to medium, such as cfOrgUnit_Medium; cfProj_Medium ... (in the function of e.g. Logo).</cfDescr>
+    <cfClass>
+      <!-- class schemes: Media Relations -->
+      <!-- usage with CERIF: cfOrgUnit_Medium; cResProd_Medium; cfProj_Medium -->
+      <cfClassId>9931ac47-3864-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Logo</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The logo representing an entity, such as organisation, product, project.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

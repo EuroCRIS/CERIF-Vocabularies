@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af939-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Organisation Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_Classification link entity, being thus organisation types.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2ec-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Academic Institute</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">An academic institution is an educational institution dedicated to education and research, which grants academic degrees.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Academic_institution</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2ed-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">University</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A university is an institution of higher education and research, which grants academic degrees in a variety of subjects. A university is a corporation that provides both undergraduate education and postgraduate education.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/University</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2ee-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">University College</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">The term "university college" is used in a number of countries to denote college institutions that provide tertiary education but do not have full or independent university status. A university college is often part of a larger university. The precise usage varies from country to country.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/University_college</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2ef-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Institute</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS;</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A research institute is an establishment endowed for doing research. Research institutes may specialize in basic research or may be oriented to applied research.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Research_institute</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2f0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Strategic Research Insitute</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A strategic research institute's core mission is to provide analyses that respond to the needs of decision-makers.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2f1-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Company</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A company is a form of business organization. In the United States, a company is a corporation—or, less commonly, an association, partnership, or union—that carries on an industrial enterprise." Generally, a company may be a "corporation, partnership, association, joint-stock company, trust, fund, or organized group of persons, whether incorporated or not, and (in an official capacity) any receiver, trustee in bankruptcy, or similar official, or liquidating agent, for any of the foregoing." In English law, and therefore in the Commonwealth realms, a company is a form of body corporate or corporation, generally registered under the Companies Acts or similar legislation. It does not include a partnership or any other unincorporated group of persons.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Company</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2f2-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">SME</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Small and medium enterprises (also SMEs, small and medium businesses, SMBs, and variations thereof) are companies whose headcount or turnover falls below certain limits. EU Member States traditionally have their own definition of what constitutes an SME, for example the traditional definition in Germany had a limit of 250 employees, while, for example, in Belgium it could have been 100. But now the EU has started to standardize the concept. Its current definition categorizes companies with fewer than 10 employees as "micro", those with fewer than 50 employees as "small", and those with fewer than 250 as "medium".</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Small_and_medium_enterprises; http://ec.europa.eu/enterprise/policies/sme/facts-figures-analysis/sme-definition/index_en.htm</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2f3-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Government</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A government is the organization, or agency through which a political unit exercises its authority, controls and administers public policy, and directs and controls the actions of its members or subjects.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Government</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2f4-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Higher Education</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Higher education or post-secondary education refers to a level of education that is provided at academies, universities, colleges, seminaries, institutes of technology, and certain other collegiate- level institutions, such as vocational schools, trade schools, and career colleges, that award academic degrees or professional certifications.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Higher_education</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>eda2b2f5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Private non-profit</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">An organization that is incorporated under state law and whose purpose is not to make profit, but rather to further a charitable, civic, scientific, or other lawful purpose.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>13d1fa53-18f0-4bf2-88ca-2d2df474f404</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Intergovernmental</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">VOA3R project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">An example of intergovernmental organisation is FAO (Food and Agriculture Organization)</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/List_of_intergovernmental_organizations</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An intergovernmental organization, sometimes rendered as an international governmental organization and both abbreviated as IGO, is an organization composed primarily of sovereign states (referred to as member states), or of other intergovernmental organizations. Intergovernmental organizations are often called international organizations, although that term may also include international nongovernmental organization such as international non-profit organizations or multinational corporations.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Intergovernmental_organization</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>ecaac6d5-b281-4f0a-a6fa-2c155aa51002</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Charity</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A charitable organization is a type of non-profit organization (NPO). It differs from other types of NPOs in that it centers on philanthropic goals (e.g. charitable, educational, religious, or other activities serving the public interest or common good). The legal definition of charitable organization (and of Charity) varies according to the country and in some instances the region of the country in which the charitable organization operates. The regulation, tax treatment, and the way in which charity law affects charitable organizations also varies.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Charitable_organization</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Types -->
+      <!-- usage with CERIF: cfOrgUnit_Class -->
+      <cfClassId>1d9ffa49-8af2-4844-a228-5498846b8da2</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">National Health Service</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Hospitals, trusts and other bodies receiving funding from central governement through the national insurance scheme.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

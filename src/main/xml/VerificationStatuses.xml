@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>2ad984e8-33ae-4f0b-927e-d292c28750e3</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Verification Statuses</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The state of verification, deduced from a date-time (e.g. for outputs) where raw data may have been imported from external sources or for information about staff which might be re-validated on annual basis.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Verification Statuses -->
+      <!-- usage with CERIF: cfPers_Class; cfProj_Class; cfResPubl_Class; cfResProd_Class; cfResPat_Class; cfFund_Class; cfMeas_Class -->
+      <cfClassId>c3c8c96f-cc0f-47e6-9c6d-4f86949ab984</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Checked</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">checked</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Verification Statuses -->
+      <!-- usage with CERIF: cfPers_Class; cfProj_Class; cfResPubl_Class; cfResProd_Class; cfResPat_Class; cfFund_Class; cfMeas_Class -->
+      <cfClassId>9b5e9d79-c332-40cb-b888-8a37bdef9f1f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Unchecked</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">not yet checked</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

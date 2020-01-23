@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>1227a225-db7a-444d-a74b-3dd4b438b420</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Electronic Address Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfElectronicAddress_Classification link entity, being used as a vocabulary of electronic address types.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details; Electronic Address Types -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr; cfEAddr_Class -->
+      <cfClassId>35d43364-2160-4b6c-a487-5019458321e8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Professional Email</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Electronic Address Types -->
+      <!-- usage with CERIF: cfEAddr_Class -->
+      <cfClassId>44651010-00b1-4543-ae6f-b5983b704742</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">MobilePhone</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Electronic Address Types -->
+      <!-- usage with CERIF: cfEAddr_Class -->
+      <cfClassId>abeddcc6-207b-4b9c-9cec-0de22087b728</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Smartphone</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Electronic Address Types -->
+      <!-- usage with CERIF: cfEAddr_Class -->
+      <cfClassId>341b4fcc-9fe4-4760-a9c8-0f36ffa4d614</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Fixedphone</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

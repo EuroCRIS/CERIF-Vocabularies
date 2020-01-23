@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af93b-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Funding Source Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfFund_Classification link entity, being thus Funding source types.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Funding Source Types -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>eda2b2e6-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funding Programme</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A Funding Programme is the source of financial means to a project, programme, equipment, event or any other structured scientific activity. A Funding Programme is managed by a Funding Organisation.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.eurocris.org/Uploads/Web%20pages/members_meetings/200905_-_Athens__Greece/Funding_Program_Workshop._Introduction_-_Geert_van_Grootel.ppt</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Types -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>eda2b2e7-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Call</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">no source found</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Types -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>eda2b2e8-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Tender</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfEx cfLangCode="en" cfTrans="o">1) An unconditional offer made by one to another to enter into the contract of transaction of goods or services at certain specified cost. Normally government bodies and business groups issues notices for quotes for specified goods or services from other businesses which is known as tender. 2) act of offering money or settlement for any dues or claims.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.legal-explanations.com/definitions/tender.htm</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A call for tenders from a funder addressing a specific requirement resulting in a number of contracts.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Types -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>eda2b2e9-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Gift</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">A gift or a present is the transfer of something without the expectation of receiving something in return. Although gift-giving might involve an expectation of reciprocity, a gift is meant to be free.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Gift</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Source Types -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>40d72109-28ba-4110-a3e9-23ecca3bb795</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Internal Funding</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDef cfLangCode="en" cfTrans="o">Where the source of funding comes from the institution itself (e.g. a university-wide conference-attendance scheme).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

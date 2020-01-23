@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>1332d166-4c65-481b-adde-aac0bdc475a3</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Output Quality Levels</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">If a quality level has been assigned to an output, then this is the assessment of the level of quality on the REF scale (http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/)</cfDescr>
+    <cfClass>
+      <!-- class schemes: Output Quality Levels -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>19258084-7068-4be1-8cfd-171952060f0c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Pending Grading</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An assessment has yet to be made of the quality level of the output.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Quality Levels -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>f9237eb5-a5c9-433f-887d-e2eac703bc18</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">4-Star</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">REF 2014; RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Quality that is world-leading in terms of originality, significance and rigour.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Quality Levels -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>9e93db57-3349-4bb9-bfba-9481302b4784</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">3-Star</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">REF 2014; RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Quality that is internationally excellent in terms of originality, significance and rigour but which falls short of the highest standards of excellence.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Quality Levels -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>7f1998ce-ddfa-4ece-af02-2eed9a48c8d2</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">2-Star</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">REF 2014; RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Quality that is recognised internationally in terms of originality, significance and rigour.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Quality Levels -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>89644214-e41f-4c30-befb-ab5d9443c08b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">1-Star</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">REF 2014; RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Quality that is recognised nationally in terms of originality, significance and rigour.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Output Quality Levels -->
+      <!-- usage with CERIF: cfResPubl_Class -->
+      <cfClassId>7ea05f8e-bd27-4f33-bfa4-54dfb3e6f905</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Unclassified</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">REF 2014; RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Quality that falls below the standard of nationally recognised work. Or work which does not meet the published definition of research for the purposes of this assessment.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ref.ac.uk/panels/assessmentcriteriaandleveldefinitions/</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

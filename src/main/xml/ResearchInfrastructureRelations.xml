@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>4c2f217d-98ad-4c49-bbb0-399e28d7a8c9</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Research Infrastructure Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfFacility_Service; cfEquipment_Service; cfFacility_Equipment link entities, being thus research infrastructure relations.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Relations; Research Infrastructure Relations; Research Infrastructure Relations -->
+      <!-- usage with CERIF: cfFacil_Srv; cfEquip_Srv; cfFacil_Equip -->
+      <cfClassId>eda2da07-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Provision</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in state of provision</cfRoleExpr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

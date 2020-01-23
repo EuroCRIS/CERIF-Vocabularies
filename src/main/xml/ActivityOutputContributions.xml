@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>ad87a6e2-5093-4550-86da-ead48cc3f385</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Activity Output Contributions</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in e.g. the cfProject_ResultPublication; cfProject_ResultPatent; cfProject_ResultProduct; cfProject_Event cflink entity, being thus an activity output contribution.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Activity Structure; Inter-Organisational Structure; Activity Structure; Inter-Publication Relations; Inter-Patent Relations; Inter-Product Relations; Inter-Event Relations; Inter-Facility Relations; Inter-Equipment Relations; Inter-Service Relations; Activity Output Contributions; Activity Output Contributions; Activity Output Contributions; Inter-Output Relations; Inter-Output Relations; Inter-Output Relations -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_Proj; cfFund_Fund; cfResPubl_ResPubl; cfResPat_ResPat; cfResProd_ResProd; cfEvent_Event; cfFacil_Facil; cfEquip_Equip; cfSrv_Srv; cfResProd_cfResProd; cfResPat_cfResPat; cfFacil_Equip; cfEquip_Srv; cfFacil_Srv; cfEvent_Srv; cfProj_ResPubl; cfProj_ResPat; cfProj_ResProd; cfResPubl_ResProd; cfResPubl_ResPat; cfResPubl_ResProd; cfResPubl_ResPat; -->
+      <cfClassId>eda28bc2-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Relation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is related to</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has relation</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">A relationship.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An abstraction belonging to or characteristic of two entities or parts together.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Relation</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

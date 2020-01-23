@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>e9616dbd-0d38-4b7d-a6cd-3c4df1e95462</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Employment Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfPerson_OrganisationUnit link entity with respect to employment, being thus employment types.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Employment Types; Person Project Engagements -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers -->
+      <cfClassId>b9bd41f0-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Administrator</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is administrator at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has administrator</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, administrator is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Administrator" identified by its cfClassificationIdentifier (a uuid) and reused in link entities (CERIF Task Group). An administrator directly employed by an organisation (RMAS Project).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">An administrator is a person responsible for the performance or management of administrative business operations</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Administrator</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An administrator directly employed on an activity or a person not directly involved in the activity but with information related to the activity (e.g. finance, computing, hr), where they are not a contact.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Employment Types; Person Project Engagements; Activity Finance Categories -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfProj_Meas -->
+      <cfClassId>8adcdf20-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Technician</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is technician at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has technician</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, technician is a role in e.g. the person-organisation relationship; that is, the classification term (cfTerm) "Technician" identified by its cfClassificationIdentifier (a uuid) and reused inlink entities. (CERIF Task Group) A permanent Research staff. (RMAS project)</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The full economic cost associated with pool technicians used in the activity (Activity Finance Category). Someone, whose duties include the construction, maintenance and operation of the equipment involved in laboratory research; the preparation of samples that constitute the raw material for experiments; the running of those experiments; and the recording, presentation and - on occations - some of the analysis and interpretation of the data that is produced. In undertaking these tasks, technicians work closely with academic researchers and make an indispensible contribution to the production of scientific knowledge, and through formal, and, in particular, informal contributions to the teaching of practical skills, they help to educate students (http://www.kcl.ac.uk/sspp/departments/management/people/academic/lewisgatsbyreport.pdf).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A technician is someone known for high skill in some intellectual or artistic technique.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=technician</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Employment Types -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>7a642fac-777a-43b7-a0c1-90b88428e125</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Academic Teaching only</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is academic teaching only staff</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has academic teaching only staff</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A permanent teaching stuff.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Employment Types -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>df5ec85e-c645-449f-9473-41c9f9923cb7</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Associate</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is research associate at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has research associate</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Research-only, non-teaching staff, not member of permanent staff.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Employment Types -->
+      <!-- usage with CERIF: cfPers_OrgUnit -->
+      <cfClassId>fd742fb8-fa7f-40b4-a015-c7deb93902f6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Academic Research</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is academic researcher at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has academic researcher</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A permanent research and teaching staff.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Person Employment Types; Person Project Engagements -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfPers_OrgUnit; cfPers_Proj -->
+      <cfClassId>eda28bc5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Supporter</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is supporter of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has supporter</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">The person not directly involved in the activity but contributing to maintaining the infrastructure.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A supporter is someone who supports or champions something.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=supporter</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

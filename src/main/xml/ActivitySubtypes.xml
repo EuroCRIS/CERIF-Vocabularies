@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>794234b8-25bb-46df-9d26-ae660bca64bc</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Activity Subtypes</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The subtypes of an activity used for more specific or finer grained analysis.</cfDescr>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Subtypes; CERIF Entities -->
+      <!-- usage with CERIF: cfOrgUnit_Class; cfProject_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfOrgUnit -->
+      <cfClassId>cf7799e2-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Organisation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of organisation is physically (cfOrgUnit) and logically (cfOrganisationUnit) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. person (cfPers_OrgUnit), events (cfOrgUnit_Event), classification systems (cfOrgUnit_Class), projects (cfProj_OrgUnit). In the CERIF vocabulary, we introduce the concept of organisation. In the physical CERIF data model, the classification of types for organisations happens with the cfOrgUnit_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning organisation types to organisation records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">Organising an event (e.g conference) (Activity Subtype).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An organization (or organisation — see spelling differences) is a social group which distributes tasks for a collective goal. The word itself is derived from the Greek word organon, itself derived from the better-known word ergon - as we know `organ` - and it means a compartment for a particular job.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Organization; RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Finance Categories; Activity Subtypes; CERIF Entities -->
+      <!-- usage with CERIF: cfFacil_Class; Proj_Meas; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfFacil -->
+      <cfClassId>cf7799e7-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Facility</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of Facility (also Research Facility) is physically (cfFacil) and logically (cfFacility) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Facil), organisations (cfOrgUnit_Facil), classification systems (cfFacil_Class), projects (cfProj_Facil). In the physical CERIF data model, the classification of types for facility happens with the cfFacil_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning facility types to facility records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The full economic cost associated with the running of the institutional research facilities and equipment used in an activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A facility is a space or equipment necessary for conducting research (CERIF Entity). The full economic cost associated with the running of the institutional research facilities and equipment used in an activity (Activity Finance Category). The specification, procurement and installation of a facility (Activity Subtype).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group; http://www.jcpsg.ac.uk/guidance/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Types; Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class; cfProj_Class -->
+      <cfClassId>67f2c93f-37c9-4311-99e7-61d40d53b265</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Networking</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity which brings together either physically or virtually groups of people, normally over a period of time to meet and exchange information and good practice.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>0bd2d47a-8688-4758-a63c-45e76825a0f6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Research Project</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A project with a specific set of anticipated research outputs to be produced over a specific time-frame.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>c0441e0d-42e4-4dd1-84bc-9cd345b911f5</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Contract Research</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A project funded for an expected outcome (normally specified by the funder).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>28de21fc-ab80-49dc-8725-41d033e81028</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Early Career Research Project</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A project undertaken by an early career researcher, for example someone in the first four years of their academic post.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>f81c03f9-7d15-4f61-90e6-bbb5c38c9a6c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Consultancy</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A specific bounded (time and specification) contribution to an activity.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>fb837c4d-73da-448c-a554-383d671bb3eb</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Commercialisation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity to (or to support) the transfer of resarch outputs or outcomes into the private sector.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>2a527079-481f-491a-8e3a-dbc79b271c48</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Continuing Professional Development</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The support for the career development of Researchers, Research Students or Research Leaders.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>6ee92d54-322f-4a55-b2c6-4388ad890754</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Enterprise</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The activity to support working with the private sector.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>7b20769e-cbf6-4955-9844-bdb6b1cd2bf6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">KTP</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The specific activity type defined by the technology strategy board of the UK government.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>6cad7850-82ea-42d6-9a7c-fbcc6753848e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Programme Grant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A large-scale activity designed to comprise a number of projects.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>1d4e7a48-d5f9-427a-bd16-e5b503967071</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Attendance</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Attending an event (e.g conference).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>6cc796c4-84f4-448c-9018-7efc47197627</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Hosting</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Hosting an event (e.g conference).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>bd95c4c6-7882-400c-bde9-b20df6f4f87e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Specified Named Person</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A fellowship awarded to an individual.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>ee8f08de-b0be-4e2b-a90c-63d08433a56d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">General Fellowship</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A fellowship awarded to an institution for which an individual can subsequently apply to.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Finance Categories; Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Meas; cfProj_Class -->
+      <cfClassId>fe3ef479-0a35-4b3e-93e8-f54800c98857</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Travel</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The costs associated with travel and subsistence (Activity Finance Category). A physical networking activity normally associated with a single or short series of visits (Activity Subtypes).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes; Event Types -->
+      <!-- usage with CERIF: cfProj_Class; cfEvent_Class -->
+      <cfClassId>33fd9fc9-48b5-41c5-a2f6-b97c6996e432</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Workshop</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A physical or virtual networking activity bringing people together for a single gathering.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>fe88ae1b-4eaa-43e6-b8df-479cc0609b8b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Building</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The specification, procurement and installation of buildings.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>37a7dad6-2487-4df8-9b41-d6c6663bba4b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Collaborative</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">(The work undertaken by a person during) a funded research degree which involves an external agency as part of or host to the research work (e.g. a research council collaborative doctoral award).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>65c07ebe-0836-49af-be78-82a36a629b30</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">General Studentship</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">(The work undertaken by a person during) a funded research degree.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Activity Subtypes -->
+      <!-- usage with CERIF: cfProj_Class -->
+      <cfClassId>08431e7e-4a62-42e3-80d7-5941126752c1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Block-Grant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">(The work undertaken by a number of people during) a block of funded research degrees (e.g. a research council block-grant partnership).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

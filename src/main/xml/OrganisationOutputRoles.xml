@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>877161b4-00d2-42c8-a368-aaa35262f3a8</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Organisation Output Roles</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_ResultPublication link entity, being used as a vocabulary of organisation output roles - different from organisation output contribution.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>7ef398b2-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Publisher</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is publisher of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has publisher</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person or corporate entity that prepares and issues printed materials for public sale or distribution, normally on the basis of a legal contract in which the publisher is granted certain exclusive rights in exchange for assuming the financial risk of publication and agreeing to compensate the author, usually with a share of the profits.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_t.cfm#publisher</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Output Funding Roles; Output Funding Roles; Output Funding Roles; Output Funding Roles; Research Infrastructure Funding Roles; Research Infrastructure Funding Roles; Research Infrastructure Funding Roles -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit; cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event; cfResPubl_Fund; cfResPat_Fund; cfResProd_Fund; cfEvent_Fund; cfFacil_Fund; cfEquip_Fund; cfSrv_Fund -->
+      <cfClassId>eda28bc0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is funder of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has funder</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation that provides funding towards the cost of an activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Individual or organization financing a part or all of a project's cost as a grant, investment, or loan.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.businessdictionary.com/definition/funder.html</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>eda2b2d0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">IPR Claim</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">claims ipr of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has ipr claim by</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">1. The rights of creative workers in literary, artistic, industrial and scientific fields which can be protected either by copyright or trademarks, patents, etc. 2. Tangible products of the human mind and intelligence entitled to the legal status of personal property, especially works protected by copyright, inventions that have been patented, and registered trademarks. An idea is considered the intellectual property of its creator only after it has been recorded or made manifest in specific form.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.newcastle.edu.au/service/library/tutorials/infoskills/glossary.html</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>eda2b2d2-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Curator</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is curator of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has curator</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person responsible for the development, care, organization, and supervision of a museum, gallery, or other exhibit space and all the objects stored or displayed in it, a role requiring considerable knowledge and experience when items are selected on the basis of artistic merit or connoisseurship. Also, a person in charge of a special collection, trained to assist users in locating and interpreting its holdings.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/search.cfm</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>eda2b2d3-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Author Institution</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is author institution of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has author institution</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">An author institution is an organization founded and united for a specific purpose where the author has a relationship.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>eda2b2d4-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Publisher Institution</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is publisher institution of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has publisher institution</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A publisher institution is an organization founded and united for a specific purpose where the publisher has a relationship.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>eda2b2d6-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">External Organisation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is external organisation of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has external organisation</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">An external organisation an organization founded and united for a specific purpose that is happening or arising or located outside or beyond some limits or especially surface.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=External; http://wordnetweb.princeton.edu/perl/webwn?s=institution</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

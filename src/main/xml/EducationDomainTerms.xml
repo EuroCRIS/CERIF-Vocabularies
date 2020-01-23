@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>b0ca7692-7fda-499f-be40-b44a7bc4f7c7</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Education Domain Terms</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfService_Classification link entity, being used as a vocabulary of educational material, e.g. courses.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Education Domain Terms -->
+      <!-- usage with CERIF: cfSrv_Class -->
+      <cfClassId>e88f9cfd-b786-40cb-9163-4718dbb865ff</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Course</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A course text is a type of study text used as a support for students.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Education Domain Terms -->
+      <!-- usage with CERIF: cfEvent_Class -->
+      <cfClassId>300592ee-e671-4054-a852-ab37b0d744c1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Course Presentation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is temporal manifestation of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has temporal manifestation</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">A course originating in the Education context is considered a type of service, therefore applicable in the cfSrv_Class link entity. Furthermore, a course presentation is considered an event, hence cfEvent_Class. The series of events linked to a service define the temporal manifestation of the service, which is thus</cfDescr>
+      <cfExSrc cfLangCode="en" cfTrans="o">CERIF TG meeting in Edinburgh (see meeting report).</cfExSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

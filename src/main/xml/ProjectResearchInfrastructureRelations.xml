@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>6df06582-34bd-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Project Research Infrastructure Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfProject_Equipment; cfProject_Service, cfProject_Facility link entities, being thus project infrastructure relation.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Activity Structure; Project Research Infrastructure Relations; Project Research Infrastructure Relations; Project Research Infrastructure Relations; Inter-Output Relations; Inter-Output Relations; Inter-Output Relations; Inter-Output Relations; Inter-Output Relations -->
+      <!-- usage with CERIF: cfProj_Proj; cfProj_Equip; cfProj_Facil; cfProj_Srv; cfResPubl_ResProd; cfResPubl_ResPat; cfResPubl_ResPubl; cfResProd_ResProd; cfResPat_ResPat; -->
+      <cfClassId>eda28bc9-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Built on</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is built on</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has built</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Built on - is a form of succession - informally expressed.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Research Infrastructure Roles; Organisation Research Infrastructure Roles; Organisation Research Infrastructure Roles; Project Research Infrastructure Relations; Project Research Infrastructure Relations; Project Research Infrastructure Relations; Person Research Infrastructure Roles; Person Research Infrastructure Roles; Person Research Infrastructure Roles -->
+      <!-- usage with CERIF: cfOrgUnit_Facil; cfOrgUnit_Equip; cfOrgUnit_Srv; cfProj_Facil; cfProj_Equip; cfProj_Srv; cfPers_Facil; cfPers_Equip; cfPers_Srv -->
+      <cfClassId>eda2da00-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">User</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is user of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has user</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">(eg. the Research Organisation)</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Project Research Infrastructure Relations; Project Research Infrastructure Relations; Project Research Infrastructure Relations -->
+      <!-- usage with CERIF: cfProj_Facil; cfProj_Equip; cfProj_Srv -->
+      <cfClassId>eda2da02-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Construction</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is constructed from</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has been constructed</cfRoleExprOpp>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Project Research Infrastructure Relations; Project Research Infrastructure Relations; Project Research Infrastructure Relations; Output Research Infrastructure Relations; Output Research Infrastructure Relations; Output Research Infrastructure Relations -->
+      <!-- usage with CERIF: cfProj_Srv; cfProj_Equip; cfProj_Facil; cfResPat_Facil; cfResPat_Equip; cfResPat_Srv; cfResProd_Facil; cfResProd_Equip; cfResProd_Srv -->
+      <cfClassId>eda2da03-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Development</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is developed by</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has developed</cfRoleExprOpp>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

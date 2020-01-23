@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>b4de9a8f-3a4d-4233-9a9f-3b624e4ad74f</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Event Involvements</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfPerson_Event link entity being thus person event involvements.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Project Engagements; Organisation Project Engagements; Person Event Involvements -->
+      <!-- usage with CERIF: cfProj_Pers; cfProj_OrgUnit; cfPers_Event -->
+      <cfClassId>ddc3dd10-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Participant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is participant in</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has participant</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, participant is a role e.g. in the person-project relationship; that is, the classification term (cfTerm) "Participant" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A participant is someone who takes part in an activity</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=participant</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements; Person Output Contributions; Person Output Contributions; Person Output Contributions; Person Output Contributions; Person Organisation Roles; Person Project Engagements; Organisation Funding Roles -->
+      <!-- usage with CERIF: cfPers_Event; cfPers_ResPubl; cfPers_ResPat; cfPers_ResProd; cfPers_Event; cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_Fund -->
+      <cfClassId>e4d7b130-1cfd-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Contributor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; CIA project; RMAS Project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is contributor to</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has contributor</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, contributor is a role in e.g. the person-project relationship; that is, the classification term (cfTerm) "Contributor" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Person contributing (in a generic way) before/during/after an event. An entity responsible for making contributions to the resource.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary; http://dublincore.org/documents/dces/#contributor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements; Person Output Contributions -->
+      <!-- usage with CERIF: cfPers_Event; cfPers_Event -->
+      <cfClassId>ee155a46-9850-48aa-98c2-e70ecb0f5d3b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Performer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is performer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has performer</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person who performs at an event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements; Person Output Contributions -->
+      <!-- usage with CERIF: cfPers_Event; cfPers_Event -->
+      <cfClassId>92e7478e-5a7c-4c72-a14e-a5770619251e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Choreographer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is choreographer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has choreographer</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A Choreographer is a person who creates dances. This person decides what the steps will be, and then a dancer performs the steps. Some people have jobs as choreographers. Some people do it just for fun. This person gets to work with a lot of different dancers, including celebrities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://simple.wikipedia.org/wiki/Choreographer</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>2b3ba8f1-5620-42c9-8549-7d34ed37f968</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Interviewee</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is interviewee at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has interviewee</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Person that is interviewed at an event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>d1ee35f1-c4c6-4651-a760-06a3828a61c1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Speaker</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is speaker at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has speaker</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Person that speaks at an event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>1ca8d2bc-9424-4df4-ae4b-8ce65239c770</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Panel Participant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is panel participant</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has panel participant</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Member of a discussion panel at an event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>1869a08e-3257-457b-9278-ed32bd915ee8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Programme Committee Member</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is programme committee member at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has programme committee member</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Member of the group of people who organise and manage the content of the event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>dc42714f-56de-441f-9161-a51d8edbcb8d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Reporter</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is reporter at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has reporter</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Person to report about the event (e.g. journalist) to the general public.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>86bacee1-49d8-429d-97aa-5f4918d3ae88</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Rapporteur</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is rapporteur at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has rapporteur</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Person to report about the 'technical' content of an event (also implies part of event, e.g. session) for the benefit of people attending or wished to attend (i.e. subject community).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>d9a6b8e4-38af-4492-b178-3326173ec657</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Peer Reviewer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is peer reviewer at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has peer reviewer</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">Subject expert reviewing content submissions to inform the process for selection of content at the event. This may also involve feedback to contributors to improve content.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>b4ba809e-60d7-411c-af62-792100c45341</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Organiser</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is organiser at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has organiser</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The person responsible for organizing the event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

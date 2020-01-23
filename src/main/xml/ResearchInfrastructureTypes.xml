@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af93d-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Research Infrastructure Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfEquipment_Classification, cfService_Classification, cfFacility_Classification link entities, being thus infrastructure types.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Types; Research Infrastructure Types; Research Infrastructure Types -->
+      <!-- usage with CERIF: cfSrv_Class; cfFacil_Class; cfEquip_Class -->
+      <cfClassId>eda2d9f9-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Distributed</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">A distributed RI is constituted by geographically distributed implementations/facilities but managed by a single body. Thus, a distributed RI is thus considered as a single RI, modelled in CERIF as a tree of facilities connected to the Facility entity representing the entire RI via recursive cfFacility_Facility relationships with appropriate semantics (e.g. isPartOf) while the RI is connected with its managing body through the cfOrgUnit_Facil link entity.</cfDescr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Types; Research Infrastructure Types; Research Infrastructure Types -->
+      <!-- usage with CERIF: cfSrv_Class; cfFacil_Class; cfEquip_Class -->
+      <cfClassId>eda2d9fa-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Network</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">A network of RIs comprises several RIs connected in some respect, but each one with its own governance/management body. The relationships between RIs in a network are modelled in CERIF using the CERIF Semantic Layer reference from within the cfFacil_Class link entity (Class=Network, role expression is a network).</cfDescr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Types; Research Infrastructure Types; Research Infrastructure Types -->
+      <!-- usage with CERIF: cfSrv_Class; cfFacil_Class; cfEquip_Class -->
+      <cfClassId>eda2d9fb-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Virtual</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">A virtual RI is defined as e-infrastructure, either a distributed e‐infrastructure that connects several RIs (databases, HP computers, facilities, etc) or a single‐sited electronic RI (e-library, e-archive, data repository, etc).  </cfDescr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Types; Research Infrastructure Types; Research Infrastructure Types -->
+      <!-- usage with CERIF: cfSrv_Class; cfFacil_Class; cfEquip_Class -->
+      <cfClassId>eda2d9fc-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Cluster</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">A cluster is a grouping of RIs based on certain similarities (scientific domain, geographical region). A cluster of RIs may be supported in some way or funded, e.g. by industry entities. A cluster is modelled in CERIF as a virtual organisation through the cfOrgUnit entity connected with the individual RIs belonging to the cluster with a cfOrgUnit_Facil link entity.</cfDescr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Research Infrastructure Types; Research Infrastructure Types; Research Infrastructure Types -->
+      <!-- usage with CERIF: cfSrv_Class; cfFacil_Class; cfEquip_Class -->
+      <cfClassId>eda2d9fd-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Single location</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

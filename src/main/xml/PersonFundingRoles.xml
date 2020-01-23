@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af934-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Funding Roles</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfPerson_Funding link entity, being thus person funding roles such as manager or contact, where funding subsumes funding programme, tender, call, and not the income as such, which would be a financial means and as such in CERIF be a measurement.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure; Person Funding Roles -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_Fund; cfPers_Fund -->
+      <cfClassId>79a2e340-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Manager</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is manager of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has manager</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, the manager role happens e.g. within the relationships person-organisation or person-project; that is, the classification term (cfTerm) "Manager" identified by its cfClassificationIdentifier (a uuid), and reused with the e.g. cfPerson_OrganisationUnit or cfProject_Person relationships.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A manager is someone who controls resources and expenditures.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Project Engagements; Organisation Funding Roles; Person Funding Roles; Person Research Infrastructure Roles; Person Research Infrastructure Roles; Person Research Infrastructure Roles -->
+      <!-- usage with CERIF: cfProj_Pers; cfOrgUnit_Fund; cfPers_Fund; cfPers_Facil; cfPers_Equip; cfPers_Srv -->
+      <cfClassId>2af3d7c0-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Contact</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is contact of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has contact</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">The person to be contacted in a particular circumstance (e.g. finance).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">In CERIF terms, contact is a role in e.g. the person-project, organisation-funding, ... relationship; that is, the classification term (cfTerm) "Contact" identified by its cfClassificationIdentifier (a uuid) and reused in link entities.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A contact is a communicative interaction.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=contact</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Project Engagements; Organisation Project Engagements; Organisation Funding Roles; Person Funding Roles; Person Output Contributions -->
+      <!-- usage with CERIF: cfProj_Pers; cfProj_OrgUnit; cfOrgUnit_Fund; cfPers_Fund; cfPers_ResPat -->
+      <cfClassId>33551370-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Applicant</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is applicant of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has applicant</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An applicant is an organisation that submits a grant application on behalf of a consortium, partnership or network of participating organisations; the applicant represents and acts on behalf of the group of participating organisation in its relations with the Agency; if the grant application is selected, the Applicant will become the main beneficiary (see Beneficiary definition below) and will sign the grant agreement on behalf of the participating organisations</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://eacea.ec.europa.eu/erasmus_mundus/tools/glossary_en.php</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An applicant is also called proposer.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

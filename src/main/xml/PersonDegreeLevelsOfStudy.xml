@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>a1a55095-45c2-456c-9869-add5d726c676</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Degree Levels of Study</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The level of degree a person is studying for.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Degree Levels of Study -->
+      <!-- usage with CERIF: cfPers_Srv -->
+      <cfClassId>a32a9785-0d15-48ba-aca8-0be319578e5e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Master</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A degree above Bachelor level, that normally takes 1 to 2 years of effort.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Degree Levels of Study -->
+      <!-- usage with CERIF: cfPers_Srv -->
+      <cfClassId>f7d5892b-8be3-42fa-8d4b-e18fe9bed062</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Doctorate</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A degree above Masters level, that normally takes 3 to 4 years of effort.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Degree Levels of Study -->
+      <!-- usage with CERIF: cfPers_Srv -->
+      <cfClassId>73451d3c-9afa-4484-8404-cd1518ef508b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Higher Doctorate</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A degree above doctorate level, that normally is associated with a life-time achievement.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

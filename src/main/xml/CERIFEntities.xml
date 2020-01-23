@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>6e0d9af0-1cd6-11e1-8bc2-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">CERIF Entities</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains defined CERIF concepts such as person, organisation, research infrastructure (being not only a 1:1 representation of the CERIF entities), but even more, e.g. research infrastructure subsumes facilty, equipment and service and output subsumes publication, patent, and product in CERIF.</cfDescr>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfPers_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfPers -->
+      <cfClassId>cf7799e0-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Person</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of person is physically (cfPers) and logically (cfPerson) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Pers), qualifications (cfPers_Qual), events (cfPers_Event), classification systems (cfPers_Class), countries (cfPers_Country).In the CERIF vocabulary, we introduce the concept of person. In the physical CERIF data model, the classification of types for persons happens with the cfPers_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning person types to person records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A person (plural: persons or people; from Latin: persona, meaning "mask") is a being, such as a human, that has certain capacities or attributes constituting personhood, the precise definition of which is the subject of much controversy.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Person</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Types; CERIF Entities -->
+      <!-- usage with CERIF: cfProj_Class; cfProj_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfProj -->
+      <cfClassId>cf7799e1-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Project</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of project is physically (cfProj) and logically (cfProject) defined as an entity in an ERM, represented by basic attributes and through maintaining relationships with other entities: projects (cfProj_Proj), classification systems (cfProj_Class), persons (cfProj_Pers), indicators (cfProj_Indic), measurements (cfProj_Meas). In the CERIF vocabulary, we introduce the concept of project. In the physical CERIF data model, the classification of types for projects happens with the cfProj_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning project types to project records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">A project in business and science is typically defined as a collaborative enterprise, frequently involving research or design, that is carefully planned to achieve a particular aim. Projects can be further defined as temporary rather than permanent social systems that are constituted by teams within or across organizations to accomplish particular tasks under time constraints.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Project</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An activity with a specific set of anticpated outputs to be produced over a speficic time-frame.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Subtypes; CERIF Entities -->
+      <!-- usage with CERIF: cfOrgUnit_Class; cfProject_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfOrgUnit -->
+      <cfClassId>cf7799e2-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Organisation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of organisation is physically (cfOrgUnit) and logically (cfOrganisationUnit) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. person (cfPers_OrgUnit), events (cfOrgUnit_Event), classification systems (cfOrgUnit_Class), projects (cfProj_OrgUnit). In the CERIF vocabulary, we introduce the concept of organisation. In the physical CERIF data model, the classification of types for organisations happens with the cfOrgUnit_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning organisation types to organisation records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">Organising an event (e.g conference) (Activity Subtype).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An organization (or organisation — see spelling differences) is a social group which distributes tasks for a collective goal. The word itself is derived from the Greek word organon, itself derived from the better-known word ergon - as we know `organ` - and it means a compartment for a particular job.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Organization; RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfResPat_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfResPat -->
+      <cfClassId>cf7799e3-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Patent</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of patent is physically (cfResPat) and logically (cfResultPatent) defined as an entity in an ERM, described through basic attributes and through In the CERIF vocabulary, we introduce the concept of patent. In the physical CERIF data model, the classification of types for patents happens with the cfResPat_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning patent types to patent records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A patent ( /ˈpætənt/ or /ˈpeɪtənt/) is a form of intellectual property. It consists of a set of exclusive rights granted by a sovereign state to an inventor or their assignee for a limited period of time in exchange for the public disclosure of an invention.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Patent</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfResProd_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfResProd -->
+      <cfClassId>cf7799e4-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Product</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of product is physically (cfResProd) and logically (cfResultProduct) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_ResProd), organisations (cfOrgUnit_ResProd), classification systems (cfResProd_Class), projects (cfProj_ResProd). "The entity product in CERIF has often caused confusion, it was maybe not stressed enough, that a cerif product is considered a result in general, achieved through some effort - and not at all is it a commercial or a physical product only. It was intended also to represent i.e. software or 'research data'. The Australian National Data Services aims at collecting definitions for clarifiying the concept of ""research data"". In CERIF, cfResProd (cfResultProduct) is an entity in the ERM. In the CERIF vocabulary, we introduce the concept of product. In the physical CERIF data model, the classification of types for products happens with the cfProduct_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning product types to product records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">In CERIF, the cfResultProduct (cfResProd) entity is meant conceptually to represent research output, such as an artefact, a device, a performance, an exhibition.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.thefreedictionary.com/product</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfResPubl_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfResPubl -->
+      <cfClassId>cf7799e5-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Publication</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of publication is physically (cfResPubl) and logically (cfResultPublication) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_ResPubl), organisations (cfOrgUnit_ResPubl), classification systems (cfResPubl_Class), projects (cfProj_ResPubl). "In CERIF, cfResPubl (cfResultPublication) is an entity in the ERM. In the CERIF vocabulary, we introduce the concept of publication. Behind the publication concept in research there are moslty peer-reviewed publications (journal articles, conference articles). More and more, there are also other publication types of interest in the scientific domain, so-called 'Grey Literature', and multiple schemes are available to collect publication types. In the physical CERIF data model, the classification of types for publications happens with the cfResPubl_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning publication types to publication records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Collection of information records that, in combination, represent a full and up-to-date history of research or scholarly published outputs resulting from, or related to, the person's research activities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/1.1.0/contributions/outputs/publications</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfFund_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfFund -->
+      <cfClassId>cf7799e6-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funding</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of funding is physically (cfFund) and logically (cfFunding) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Fund), organisations (cfOrgUnit_Fund), classification systems (cfRund_Class), projects (cfProj_Fund). In the CERIF vocabulary, we introduce the concept of funding. In the physical CERIF data model, the classification of types for funding happens with the cfFund_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning funding types to funding records.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Funding is an amount of money or an inkind equivalent value.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Finance Categories; Activity Subtypes; CERIF Entities -->
+      <!-- usage with CERIF: cfFacil_Class; Proj_Meas; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfFacil -->
+      <cfClassId>cf7799e7-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Facility</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of Facility (also Research Facility) is physically (cfFacil) and logically (cfFacility) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Facil), organisations (cfOrgUnit_Facil), classification systems (cfFacil_Class), projects (cfProj_Facil). In the physical CERIF data model, the classification of types for facility happens with the cfFacil_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning facility types to facility records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The full economic cost associated with the running of the institutional research facilities and equipment used in an activity.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://www.jcpsg.ac.uk/guidance/</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A facility is a space or equipment necessary for conducting research (CERIF Entity). The full economic cost associated with the running of the institutional research facilities and equipment used in an activity (Activity Finance Category). The specification, procurement and installation of a facility (Activity Subtype).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group; http://www.jcpsg.ac.uk/guidance/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; Activity Finance Categories; CERIF Entities -->
+      <!-- usage with CERIF: cfEquip_Class; cfProj_Meas; cfProj_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfEquip -->
+      <cfClassId>cf7799e8-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Equipment</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of equipment is physically (cfEquip) and logically (cfEquipment) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Equip), organisations (cfOrgUnit_Equip), classification systems (cfEquip_Class), projects (cfProj_Equip). In the physicial CERIF data model, the classification of types for equipment happens with the cfEquip_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning equipment types to equipment records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The costs associated with the purchase of equipment normally above a price threshold, e.g 1.000 GBP (Activity Finance Category). The specification, procurement and installation of equipment Activity Subtype).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Equipment is an instrumentality needed for undertaking or to perform a service (CERIF Entity). The costs associated with the purchase of equipment normally above a price threshold, e.g 1.000 GBP (Activity Finance Category).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=equipment; RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfSrv_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfSrv -->
+      <cfClassId>cf7799e9-3477-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Service</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of serive is physically (cfSrv) and logically (cfService) defined as an entity in an ERM, described through basic attributes and through semantically neutral relationships with e.g. persons (cfPers_Srv), organisations (cfOrgUnit_Srv), classification systems (cfSrv_Class), projects (cfProj_Srv). In the CERIF vocabulary, we introduce the concept of service. In the physical CERIF data model, the classification of types for service happens with the cfSrv_Class entity, where a type is represented by a classification term (cfTerm) identified by its cfClassificationIdentifier (a uuid), and reused at instance level for assigning service types to service records."</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">The specification, procurement and installation of a service or the maintenance of existing equipment, facilities and buildings.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A service is an exchange for money or other commodities where an enduser receives support from a supplier.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfCite_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfCite -->
+      <cfClassId>68aa07f0-34c9-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Citation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the citation entity is used for publication references (citations) to outside of the current information system. Otherwise, citation counts may be deduced from physical publication-publication relationships, i.e. cfResPubl_ResPubl (physical) or cfResultPublication_cfResultPublication (logical) and stored as a measurement cfResPubl_Meas (cfResultPublication_Measurement).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A citation is an acknowledgment, credit, reference, mention, quotation (a short note recognizing a source of information or of a quoted passage).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=citation</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfCV_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfCV -->
+      <cfClassId>68aa07f1-34c9-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Curriculum Vitae</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the CV entity is used for curriculum vitae information references.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A curriculum vitae (cv) is a summary of your academic and work history.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=cv</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfEAddr_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfEAddr -->
+      <cfClassId>68aa07f2-34c9-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Electronic Address</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of electronic address is physically (cfEAddr) and logically (cfElectronicAddress) defined as an entity in the ERM, described through basic attributes and through semantically neutral relationships with persons (cfPers_EAddr), organisations (cfOrgUnit_EAddr), classification systems (cfEAddr_Class).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An electronic address is a computer address, reference ((computer science) the code that identifies where a piece of information is stored).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfPAddr_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfPAddr -->
+      <cfClassId>68aa07f3-34c9-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Postal Address</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of physical address is physically (cfPAddr) and logically (cfPhysicalAddress) defined as an entity in the ERM, described through basic attributes and through semantically neutral relationships with persons (cfPers_PAddr), organisations (cfOrgUnit_PAddr), classification systems (cfPAddr_Class).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An address is the place where a person or organization can be found or communicated with.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfEvent_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfEvent -->
+      <cfClassId>68aa07f4-34c9-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Event</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of event is physically and logically defined as an entity cfEvent in the ERM, described through basic attributes and through semantically neutral relationships e.g. with persons (cfPers_Event), organisations (cfOrgUnit_Event), classification systems (cfEvent_Class).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An event is something that happens at a given place and time.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfMedium_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfQual -->
+      <cfClassId>a9332fbf-e5a9-430f-8e78-26bc3610dfe3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Medium</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; MERIL project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of medium is physically and logically defined as an entity cfMedium in the ERM, described through basic attributes and through semantically neutral relationships e.g. with persons (cfPers_Event), organisations (cfOrgUnit_Event), classification systems (cfEvent_Class).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A means or instrumentality for storing or communicating information</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=medium</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfQual_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfMedium -->
+      <cfClassId>68aa07f5-34c9-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Qualification</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the concept of qualification is physically (cfPAddr) and logically (cfPhysicalAddress) defined as an entity in the ERM, described through basic attributes and through semantically neutral relationships with persons (cfPers_Qual) and classification systems (cfQual_Class).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A qualification is an attribute that must be met or complied with and that fits a person for something.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=qualification</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <!-- cerifERM-Entity: cfFedId -->
+      <cfClassId>a1e51365-b7c4-4bdb-bbd1-0530840148be</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Federated Identifier</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the cfFederatedIdentifier entity is an hybrid entity in the sense that it connects the internal world with an outside world, of which we do not know what can be assumed to be known. For consistency, this entity has ist own cfFederatedIdentifier identifier - namely in short cfFedIdId as an ID and primary key (PK). Finally, the entity has the cfInstanceIdentifier as a character, identifying the record for which this federate identifier is required - in short cfFedInstId. These two just introduced identifiers, in sort cfFedIdId, and cfFedIdInstId represent the internal world of the system. However, following the CERIF link entity style, the linked entity identifier is also required; pointing to the outside world, namely this is the cfFedId or cfFederatedIdentifier as such. It can possibly have a role that is applicable with Relation. We assume that currrently the only role appied is "same as", where for future applications it may be useful to have the usual cfClassId/cfClassSchemeId reference optionally available (e.g. for possible constraints such as - the fed-id-link is valid only for a person in the role of an author). However, especially with the CERIF XML, we currently recommend to omit it, because the cfFedId entity is embeded in the base entity and thus, the same-as attribute is implictly known from the structure of the XML record (see examples and specification documents).</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A federated identifier supports with additional information sources extractions.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfMeas_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfMeas -->
+      <cfClassId>1cc0fbd8-a160-41df-9af8-d436e6a5296f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Measurement</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; MICE project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the cfMeasurement entity has been introduced in the context of Impact, which in CERIF is an indicator cfIndicator. In CERIF, a measurement can thus be linked to an indicator through the link entity cfIndicator_Measurement (CERIF link entities are neutral in reading directions), incorporating the usual link entity construct, i.e. Semantic Layer references.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">http://mice.cerch.kcl.ac.uk/?p=71</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://mice.cerch.kcl.ac.uk/?p=15; http://en.wikipedia.org/wiki/Performance_indicator</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A measurement is the dimension, quantity, or capacity determined by measuring.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.thefreedictionary.com/measurement</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfIndic_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfIndic -->
+      <cfClassId>ed96ef79-f77d-4aaf-8c19-f727bbb49937</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Indicator</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M; MICE project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF, the cfIndicator entity has been introduced in the context of Impact. In CERIF, an indicator can be linked to a measurement through the link entity cfIndicator_Measurement (CERIF link entities are neutral in reading directions), incorporating the usual link entity construct, i.e. Semantic Layer references.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfEx cfLangCode="en" cfTrans="o">http://mice.cerch.kcl.ac.uk/?p=71</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">http://mice.cerch.kcl.ac.uk/?p=15; http://en.wikipedia.org/wiki/Performance_indicator</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An indicator can be defined as something that helps us to understand where we are, where we are going and how far we are from the goal. Therefore it can be a sign, a number, a graphic and so on. It must be a clue, a symptom, a pointer to something that is changing. Indicators are presentations of measurements. They are bits of information that summarize the characteristics of systems or highlight what is happening in a system. A more rigorous definition is given by the International Institute for Sustainable Development (IISD): " An indicator quantifies and simplifies phenomena and helps us understand complex realities. Indicators are aggregates of raw and processed data but they can be further aggregated to form complex indices." Example of traditional indicators or indices used in measuring the social, economic and environmental welfare are: the Gross National Product, the unemployment rates, the price index, the life expectancy (ESEMPIO DI INDICATORE AMBIENTALE)</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities; CERIF Entities -->
+      <!-- usage with CERIF: cfClass_Class; cfFedId_Class -->
+      <!-- cerifERM-Entity: cfClass -->
+      <cfClassId>613b117e-980e-4051-8876-8524cd498caf</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Classification</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">In CERIF, the cfClassification (cfClass) entity is of one of the main entities in the Semantic Layer. Its internal identifier cfClassId is used for references from within all CERIF link entities. It has a recursive entity cfClassification_Classification (cfClass_Class) which is formally also a link entity.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: CERIF Entities -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <!-- cerifERM-Entity: cfClassScheme -->
+      <cfClassId>4c93b3b2-d5ff-442c-9b28-4a028305bcf1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Classification Scheme</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">In CERIF, the cfClassificationScheme (cfClassScheme) entity is of one of the main entities in the Semantic Layer. Its internal identifier cfClassSchemId is used for references from within all CERIF link entities. It has a recursive entity cfClassificationScheme_ClassificationScheme (cfClassScheme_ClassScheme) which is formally also a link entity. A classification scheme in CERIF is additionally understandable from the underlying context in which the terms are applied (e.g. Activity Structure in cfProj_Proj; Person Employment Types in cfPers_OrgUnit).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

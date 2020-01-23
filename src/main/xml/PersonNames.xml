@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>7375609d-cfa6-45ce-a803-75de69abe21f</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Names</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable with the cfPersonName_Person link entity, being thus a vocabulary of person name variants.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Names -->
+      <!-- usage with CERIF: cfPersName_Pers -->
+      <cfClassId>64f0eb00-462d-4737-8033-7efac82decf3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Passport Name</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The name of the person as printed in the passport</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Names -->
+      <!-- usage with CERIF: cfPersName_Pers -->
+      <cfClassId>bdcf213d-df3e-4af4-a2ea-69ca26e98cd4</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Short Name</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The name of the person in short.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Names -->
+      <!-- usage with CERIF: cfPersName_Pers -->
+      <cfClassId>5f3df96e-eb12-46b1-8458-c85914e2fc4c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Initials</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The initials deduced from a person's name.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Names -->
+      <!-- usage with CERIF: cfPersName_Pers -->
+      <cfClassId>55f90543-d631-42eb-8d47-d8d9266cbb26</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Presented Name</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The given and surname of the reference.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-activity-profile-v0.9-draft/1.1.0/funding-requests/references/presented-name</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Names -->
+      <!-- usage with CERIF: cfPersName_Pers -->
+      <cfClassId>c54976a0-6793-4e62-b77d-7871ccb6ef0b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Previous Family Name</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CASRAI Dictionary</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The previous surname of the person if, for example, there has been a change due to marriage.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dictionary.casrai.org/research-personnel-profile/1.1.0/identification/person-info/previous-family-name</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

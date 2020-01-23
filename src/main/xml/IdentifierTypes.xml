@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Identifier Types</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfFederatedIdentifier_Classification link entity, being thus a vocabulary of current authority identifiers (extensible and meant as a first start).</cfDescr>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>31d222b4-11e0-434b-b5ae-088119c51189</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">DOI</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Digital Object Identifier</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.doi.org/doi_handbook/Glossary.html</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>56f4fdbc-39a7-42cd-bd35-9d0d8c95f6da</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">PMCID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">PubMed Central ID</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.research.ucla.edu/ora/training/documents/Nov-10/5.pdf</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>008f9358-61db-46e2-8157-beb55e972aa6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ISI-Number</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">ISI Web Of Knowledge Number</cfDescr>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>fafa2259-304e-4aa4-8419-f84b9cf6f2eb</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ScopusAffiliationID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Scopus Affiliation Identifier</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.info.sciverse.com/scopus/scopus-in-detail/tools/affiliationidentifier</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>24ddadbc-9b33-40c5-9d25-73b055f0183a</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ScopusAuthorID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Scopus Author Identifier</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.info.sciverse.com/scopus/scopus-in-detail/tools/authoridentifier</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>716bcc9a-c9dd-4b8b-b4ab-6c140e578ec3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ORCID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Open Researcher &amp; Contributor ID</cfDescr>
+      <cfDef cfLangCode="en" cfTrans="o">ORCID is an international, interdisciplinary, open, and not-for-profit organization created for the benefit of all stakeholders, including research institutions, funding organizations, publishers, and researchers to enhance the scientific discovery process and improve collaboration and the efficiency of research funding.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://about.orcid.org/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>872e7b38-e11b-4b0f-b68b-6c6279c92e53</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">INSTID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">HESA Institution Identifier</cfDescr>
+      <cfDef cfLangCode="en" cfTrans="o">The institution identifier of the reporting institution. The institution is identified by two fields, field 2, HESA institution identifier (a four digit number relating to the institution) and field 3, Campus identifier, a single alphanumeric character. The Campus identifier character 'A' will be designated the default for the whole institution.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_collns&amp;task=show_manuals&amp;Itemid=233&amp;r=96011&amp;f=2</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>c0071785-549a-4379-a2af-d9a978ea3a1e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">STAFFID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">HESA Staff Identifier</cfDescr>
+      <cfDef cfLangCode="en" cfTrans="o">The Staff identifier is a unique code allocated to a staff member when they are first entered onto the staff record and, where a member of staff is contracted to work in jobs classified in SOC groups 1,2 or 3, it stays with them for the whole of their career within HE.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/component/option,com_collns/task,show_manuals/Itemid,233/r,08025/f,003/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>68e498fb-c8ee-4a08-a647-b191df5cac39</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">HUSID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">HESA Student Identifier</cfDescr>
+      <cfDef cfLangCode="en" cfTrans="o">The Student identifier is to be unique to each student. It is intended that the identifier is to be transferred with the student to each institution of higher education he/she may attend. The medium term objective is that the use of this number will allow the accurate tracking of students throughout their life within the sector for which HESA collects data.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.hesa.ac.uk/index.php?option=com_collns&amp;Itemid=233&amp;task=show_manuals&amp;r=96011&amp;f=004</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>b4a7caf0-5257-411e-accc-d1ee70d2f701</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ResearcherID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The ResearcherID by Thomson Reuters.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.researcherid.com/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>39436e26-6d68-4b5a-8ba1-d002a979fdea</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UKPRN</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">UK Provider Reference Number</cfDescr>
+      <cfDef cfLangCode="en" cfTrans="o">The UK Register of Learning Providers is a 'one-stop' portal to be used by government departments, agencies, learners, and employers to share key information about learning providers. The UKRLP allows providers to update their information in one place and share this across agencies such as the Skills Funding Agency, the Higher Education Statistics Agency (HESA), the Higher Education Funding Council for England (HEFCE) and UCAS. Since provider registration opened on 1st August 2005, the UKRLP has grown to over 25,000 providers. Each of these has been verified against a recognised external source and has been allocated a UK Provider Reference Number (UKPRN). This is the unique identifier used to share information with the UKRLP partner agencies.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.ukrlp.co.uk/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>f2dc329b-f47e-4876-9ceb-b190c19aca98</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">URI</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Uniform Resource Identifier</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Uniform_resource_identifier</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>7f65458e-00de-4eaf-8109-01e517790a2c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">URL</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Uniform Resource Locator</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Uniform_resource_locator</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>ba36c17a-c056-4d7b-aa26-b62bb04cdfc6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">HR-ID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The ID as recorded in the HR system.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>b52eef12-0dca-4496-ae86-9389de0437f6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Project-MM-ID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The ID as recorded in the project management system</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>c02711cd-7cfb-4b20-ba2e-15c8c1179a05</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Repository-ID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The ID as recorded in the repository.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>7916dbe8-9264-4810-92df-7c21ab733338</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Finance-ID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The ID as recorded in the finance system.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>708d9118-c4dd-4813-8ff7-b43bf0a493b0</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">CRIS-ID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The ID as recorded in the CRIS.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>e093fb4c-4d5e-4602-8878-22e7dc360c36</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">DNR</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Diari-Number in Sweden.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>c7e9afa5-02ce-4222-88f8-b717051fed39</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ISNI</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">International Standard Name Identifier</cfDescr>
+      <cfDef cfLangCode="en" cfTrans="o">The International Standard Name Identifier (ISNI) is an ISO Standard (ISO 27729) whose scope is the identification of Public Identities of parties: that is, the identities used publicly by parties involved throughout the media content industries in the creation, production, management, and content distribution chains. The ISNI system uniquely identifies Public Identities across multiple fields of creative activity. The ISNI provides a tool for disambiguating Public Identities that might otherwise be confused. ISNI is not intended to provide direct access to comprehensive information about a Public Identity but can provide links to other systems where such information is held.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.isni.org/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>e0d3ce71-2d85-4b6b-8103-636276d31c1d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">UUID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Unique Universal Identifier</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Universally_unique_identifier</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>baaa59e1-745b-46e3-b068-aaa3dae9eef9</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Handle</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The Handle System provides efficient, extensible, and secure resolution services for unique and persistent identifiers of digital objects, and is a component of CNRI's Digital Object Architecture. Digital Object Architecture provides a means of managing digital information in a network environment. A digital object has a machine and platform independent structure that allows it to be identified, accessed and protected, as appropriate. A digital object may incorporate not only informational elements, i.e., a digitized version of a paper, movie or sound recording, but also the unique identifier of the digital object and other metadata about the digital object. The metadata may include restrictions on access to digital objects, notices of ownership, and identifiers for licensing agreements, if appropriate.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://www.handle.net/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>634197d9-3a2e-4df7-b982-18b41a7e6f24</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">VAT Identification Number</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A value added tax identification number or VAT identification number (VATIN) is an identifier used in many countries, including the countries of the European Union, for value added tax purposes.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/VAT_identification_number</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

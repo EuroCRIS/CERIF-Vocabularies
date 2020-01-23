@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>aef32e66-d31a-40db-bbd9-d1df96522987</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Organisation Measurement Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable with the cfOrganisationUnit_Measurement entity, being thus organisation related measurements, such as e.g. cost center.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Organisation Measurement Relations -->
+      <!-- usage with CERIF: cfOrgUnit_Meas -->
+      <cfClassId>eda2b2e5-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Cost Center</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is cost center of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has cost center</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">In business, a cost centre is a division that adds to the cost of an organization, but only indirectly adds to its profit. Typical examples include research and development, marketing and customer service.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Cost_centre_%28business%29</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

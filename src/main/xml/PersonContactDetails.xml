@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>05cc5ff9-bc58-4743-ab59-46e5013e0039</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Person Contact Details</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">A person's electronic and postal contact coordinates. This scheme contains CERIF vocabulary terms applicable in the cfPerson_ElectroniAddress or cfPerson_PostAddress link entity, being thus person contact details.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>9931ac41-3864-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Fax</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>9931ac42-3864-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Email</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details; Electronic Address Types -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr; cfEAddr_Class -->
+      <cfClassId>35d43364-2160-4b6c-a487-5019458321e8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Professional Email</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr -->
+      <cfClassId>4523402a-0bae-4716-a5d7-77411b74d5f6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Personal Email</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>20476135-bc75-40b4-b5f0-f05543e919c6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Skype</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>95bff29c-338f-4790-80ac-c39ec3bc72f4</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Twitter</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>beb680a9-4504-417f-b444-65ff289c5952</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Facebook</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>48ed3997-8f3b-41bd-94c5-ba37df71c263</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">LinkedIn</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CIA project</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>9931ac44-3864-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Phone</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>9931ac45-3864-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Public Access</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details; Organisation Contact Details -->
+      <!-- usage with CERIF: cfPers_EAddr; cfOrgUnit_EAddr -->
+      <cfClassId>9931ac46-3864-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Corporate Access</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Contact Details -->
+      <!-- usage with CERIF: cfPers_Paddr -->
+      <cfClassId>6947fabb-a277-4f8f-b148-c6b41a936c57</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Person Professional Postal Address</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The work address of a person to which physical correspondance can be delivered.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
