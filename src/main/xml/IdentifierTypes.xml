@@ -282,16 +282,6 @@
     <cfClass>
       <!-- class schemes: Identifier Types -->
       <!-- usage with CERIF: cfFedId_Class -->
-      <cfClassId>24431c02-d6b1-4927-a4a4-c21bd05c3507</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">ZDBID</cfTerm>
-      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
-      <cfDef cfLangCode="en" cfTrans="o">ZDB ID is identifier assigned by the Union Catalogue of Serials (ZDB). It is one of the world's largest databases for journals, newspapers, monographic series and other serial publications from all countries, in all languages, without time restrictions, in printed, electronic or digitised form.
-</cfDef>
-      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.zeitschriftendatenbank.de/en/ueber-uns/</cfDefSrc>
-    </cfClass>
-    <cfClass>
-      <!-- class schemes: Identifier Types -->
-      <!-- usage with CERIF: cfFedId_Class -->
       <cfClassId>bc1d7470-72fb-4ba4-934a-ea7357bbcaf8</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">RORID</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
