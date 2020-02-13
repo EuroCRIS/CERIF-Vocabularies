@@ -33,6 +33,32 @@
     <cfClass>
       <!-- class schemes: Identifier Types -->
       <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>7b3c894c-c92e-46f7-8f4b-102b39b68e5a</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">SCP-Number</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Scopus Number</cfDescr>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>1f473e2d-fb1d-4fbd-af70-cc4ab365a4b3</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ISSN</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">An International Standard Serial Number (ISSN) is an eight-digit serial number used to uniquely identify a serial publication, such as a magazine.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/International_Standard_Serial_Number</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>965d782c-d323-460f-9cef-1c303bc05652</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ISBN</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The International Standard Book Number (ISBN) is a numeric commercial book identifier which is intended to be unique.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.issn.org/understanding-the-issn/what-is-an-issn/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
       <cfClassId>fafa2259-304e-4aa4-8419-f84b9cf6f2eb</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">ScopusAffiliationID</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">CRISPool project; RMAS project</cfTermSrc>
@@ -100,6 +126,15 @@
     <cfClass>
       <!-- class schemes: Identifier Types -->
       <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>06ca4dfb-e965-4cc7-a55a-a845e47c7a9c</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">DAI</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The Digital Author Identifier (DAI) by the Dutch research system.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/Digital_Author_Identifier</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
       <cfClassId>39436e26-6d68-4b5a-8ba1-d002a979fdea</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">UKPRN</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">HEFCE</cfTermSrc>
@@ -124,6 +159,15 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
       <cfDescr cfLangCode="en" cfTrans="o">Uniform Resource Locator</cfDescr>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Uniform_resource_locator</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>9bfb83ac-d3e8-4e6d-bd2f-de30f19b9407</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">URN</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">Uniform Resource Name</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/Uniform_Resource_Name</cfDefSrc>
     </cfClass>
     <cfClass>
       <!-- class schemes: Identifier Types -->
@@ -210,11 +254,70 @@
     <cfClass>
       <!-- class schemes: Identifier Types -->
       <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>1d8a62e5-f431-4548-ad61-73901f8221c6</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ARK</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">The Archival Resource Key (ARK) system is location and protocol independent and is a new approach to persistent identification. It was developed in 2001 by John Kunze for custodians of archived digital objects, and emphasises the principle of stewardship of resources and their naming schemes over time.</cfDescr>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.ifla.org/book/export/html/8786</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
       <cfClassId>634197d9-3a2e-4df7-b982-18b41a7e6f24</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">VAT Identification Number</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfDef cfLangCode="en" cfTrans="o">A value added tax identification number or VAT identification number (VATIN) is an identifier used in many countries, including the countries of the European Union, for value added tax purposes.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/VAT_identification_number</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>24431c02-d6b1-4927-a4a4-c21bd05c3507</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ZDBID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">ZDB ID is identifier assigned by the Union Catalogue of Serials (ZDB). It is one of the world's largest databases for journals, newspapers, monographic series and other serial publications from all countries, in all languages, without time restrictions, in printed, electronic or digitised form.
+</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.zeitschriftendatenbank.de/en/ueber-uns/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>24431c02-d6b1-4927-a4a4-c21bd05c3507</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ZDBID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">ZDB ID is identifier assigned by the Union Catalogue of Serials (ZDB). It is one of the world's largest databases for journals, newspapers, monographic series and other serial publications from all countries, in all languages, without time restrictions, in printed, electronic or digitised form.
+</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.zeitschriftendatenbank.de/en/ueber-uns/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>bc1d7470-72fb-4ba4-934a-ea7357bbcaf8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">RORID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The ROR ID is assigned by ROR which is the Research Organization Registry, a community-led project to develop an open, sustainable, usable, and unique identifier for every research organization in the world.
+</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://ror.org/about</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>93c8ebec-edf0-4695-a45d-c6f6c3f5921f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">GRID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">GRID is a global research identifier database
+</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.grid.ac/</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>f194ba94-6f83-4f41-89f0-d9acefc4679d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">FundRefID</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The identifier assigned by a Crossref service of registering funders - FundRef. 
+</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.crossref.org/services/funder-registry/</cfDefSrc>
     </cfClass>
   </cfClassScheme>
 </CERIF>
