@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>b4de9a8f-3a4d-4233-9a9f-3b624e4ad74f</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Event Relationship Kinds</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_Event and cfProject_Event link entities.</cfDescr>
+    <cfClass>
+      <cfClassId>d917a26d-7be0-4fec-9f98-91dee3b9185e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Partner</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is partner of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has partner</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">One that is united or associated with another or others in an activity or a sphere of common interest.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.thefreedictionary.com/partner</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <cfClassId>62c5c9b7-52db-402c-afd6-2d49ccae2230</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Sponsor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is sponsor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">is sponsored by</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">One that finances a project, event, or organization directed by another person or group, such as a business enterprise that pays for radio or television programming in return for advertising time.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.thefreedictionary.com/sponsor</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Event Involvements -->
+      <!-- usage with CERIF: cfPers_Event -->
+      <cfClassId>b4ba809e-60d7-411c-af62-792100c45341</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Organiser</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is organiser at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has organiser</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The person responsible for organizing the event.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
