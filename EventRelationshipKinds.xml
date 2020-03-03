@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
   <cfClassScheme>
-    <cfClassSchemeId>b4de9a8f-3a4d-4233-9a9f-3b624e4ad74f</cfClassSchemeId>
+    <cfClassSchemeId>d25fa15f-b48f-4440-ac98-33a0af065692</cfClassSchemeId>
     <cfName cfLangCode="en" cfTrans="o">Event Relationship Kinds</cfName>
     <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfOrganisationUnit_Event and cfProject_Event link entities.</cfDescr>
     <cfClass>
