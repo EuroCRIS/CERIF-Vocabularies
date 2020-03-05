@@ -207,17 +207,6 @@
     <cfClass>
       <!-- class schemes: Person Output Contributions -->
       <!-- usage with CERIF: cfPers_ResPat -->
-      <cfClassId>5b6b6bf2-c949-4c9e-ab4c-ffaa196b8355</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">Patentee</cfTerm>
-      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
-      <cfRoleExpr cfLangCode="en" cfTrans="o">is patentee of</cfRoleExpr>
-      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has patentee</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">The inventor to whom a patent is issued.</cfDef>
-      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=patentee</cfDefSrc>
-    </cfClass>
-    <cfClass>
-      <!-- class schemes: Person Output Contributions -->
-      <!-- usage with CERIF: cfPers_ResPat -->
       <cfClassId>1be09e96-c55e-4f9c-8f59-a6fac1b0260b</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">Inventor</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
@@ -230,21 +219,12 @@
       <!-- class schemes: Person Output Contributions; Organisation Output Contributions -->
       <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl -->
       <cfClassId>c92a7a1f-346e-4eae-b763-a1886a251243</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">PatentHolder</cfTerm>
-      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
-      <cfRoleExpr cfLangCode="en" cfTrans="o">is pantentent holder of</cfRoleExpr>
-      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has pantentent holder</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">A patent holder is a sole person or corporate body who is permitted to make, use, or sell the product, process, or solution to a technological problem in accordance with developed and registered patent.</cfDef>
-      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.shopify.com/encyclopedia/patents</cfDefSrc>
-    </cfClass>
-    <cfClass>
-      <!-- class schemes: Person Output Contributions -->
-      <!-- usage with CERIF: cfPers_ResPat -->
-      <cfClassId>74e43aa3-233d-4a59-b9bf-0bd733c9e9f8</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">Holder</cfTerm>
-      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is holder of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has holder</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A patent holder is a sole person or corporate body who is permitted to make, use, or sell the product, process, or solution to a technological problem in accordance with developed and registered patent.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.shopify.com/encyclopedia/patents</cfDefSrc>
     </cfClass>
     <cfClass>
       <!-- class schemes: Person Output Contributions -->

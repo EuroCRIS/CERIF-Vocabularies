@@ -88,11 +88,11 @@
       <!-- class schemes: Person Output Contributions; Organisation Output Contributions -->
       <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl -->
       <cfClassId>c92a7a1f-346e-4eae-b763-a1886a251243</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">PatentHolder</cfTerm>
-      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
-      <cfRoleExpr cfLangCode="en" cfTrans="o">is pantentent holder of</cfRoleExpr>
-      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has pantentent holder</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">A patent holder is a sole person or corporate entity who is permitted to make, use, or sell the product, process, or solution to a technological problem in accordance with developed and registered patent.</cfDef>
+      <cfTerm cfLangCode="en" cfTrans="o">Holder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is holder of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has holder</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A patent holder is a sole person or corporate body who is permitted to make, use, or sell the product, process, or solution to a technological problem in accordance with developed and registered patent.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">https://www.shopify.com/encyclopedia/patents</cfDefSrc>
     </cfClass>
     <cfClass>
