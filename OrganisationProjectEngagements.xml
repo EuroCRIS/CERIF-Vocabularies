@@ -116,7 +116,7 @@
       <!-- class schemes: Organisation Project Engagements -->
       <!-- usage with CERIF: cfProj_OrgUnit -->
       <cfClassId>69948e23-7c53-4437-a33e-17c051b9281b</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">InKindContributor</cfTerm>
+      <cfTerm cfLangCode="en" cfTrans="o">In Kind Contributor</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is in kind contributor of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has in kind contributor</cfRoleExprOpp>
@@ -164,7 +164,7 @@
       <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements -->
       <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
       <cfClassId>ddc514b7-f5dd-4dfa-9915-938b71549733</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">ConsortiumMember</cfTerm>
+      <cfTerm cfLangCode="en" cfTrans="o">Consortium Member</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is consortium member of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has consortium member</cfRoleExprOpp>
