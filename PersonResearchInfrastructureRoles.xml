@@ -51,5 +51,15 @@
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has staff</cfRoleExprOpp>
       <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
     </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Research Infrastructure Roles; Person Research Infrastructure Roles; Person Research Infrastructure Roles -->
+      <!-- usage with CERIF: cfPers_Facil; cfPers_Equip; cfPers_Srv -->
+      <cfClassId>68119e88-cbeb-411f-a076-80c765ca99e8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Owner</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is owner of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has owner</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person which is the owner of research infrastructure.</cfDef>
+    </cfClass>
   </cfClassScheme>
 </CERIF>

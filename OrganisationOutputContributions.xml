@@ -25,8 +25,30 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is author of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has author</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">An author is the person or corporate entity responsible for producing a written work (essay, monograph, novel, play, poem, screenplay, short story, etc.) whose name is printed on the title page of a book or given elsewhere in or on a manuscript or other item and in whose name the work is copyrighted. A work may have two or more joint authors. In library cataloging, the term is used in its broadest sense to include editor, compiler, composer, creator, etc</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">An author is the person or corporate body responsible for producing a written work (essay, monograph, novel, play, poem, screenplay, short story, etc.) whose name is printed on the title page of a book or given elsewhere in or on a manuscript or other item and in whose name the work is copyrighted. A work may have two or more joint authors. In library cataloging, the term is used in its broadest sense to include editor, compiler, composer, creator, etc</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_e.cfm#author</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPubl -->
+      <cfClassId>60f2a090-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Creator</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is creator of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has creator</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">An entity primarily responsible for making the resource.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://dublincore.org/documents/dces/#creator</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPubl -->
+      <cfClassId>708b3df0-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Editor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is editor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has editor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person or corporate body who prepares for publication the work(s) of one or more other authors. An editor may be responsible for selecting material included in a collection or for preparing manuscript copy for the printer, including annotation of the text, verification of the accuracy of facts and bibliographic citations, polishing grammar and style, organizing front and back matter, etc. Periodicals and large reference works often have a general editor or editor-in-chief who supervises the work of an editorial staff.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_e.cfm#editor</cfDefSrc>
     </cfClass>
     <cfClass>
       <!-- class schemes: Person Output Contributions; Organisation Output Contributions; Organisation Project Engagements -->
@@ -61,6 +83,39 @@
       <cfRoleExpr cfLangCode="en" cfTrans="o">is host of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has host</cfRoleExprOpp>
       <cfExSrc cfLangCode="en" cfTrans="o">MERIL project</cfExSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl -->
+      <cfClassId>c92a7a1f-346e-4eae-b763-a1886a251243</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">PatentHolder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is pantentent holder of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has pantentent holder</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A patent holder is a sole person or corporate entity who is permitted to make, use, or sell the product, process, or solution to a technological problem in accordance with developed and registered patent.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.shopify.com/encyclopedia/patents</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl -->
+      <cfClassId>f3126154-6de6-471c-8395-c42b661c2fac</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">PatentIssuer</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is issuer of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has issuer</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A patent issuer is a governmental or intergovernmental organization which controls the issue of patents. In other words, patent issuers are government bodies that may grant a patent or reject the patent application based on whether the application fulfils the requirements for patentability.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/Patent_office</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles; Organisation Output Roles -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl; cfOrgUnit_ResPat; cfOrgUnit_ResProd; cfOrgUnit_Event -->
+      <cfClassId>7ef398b2-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Publisher</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is publisher of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has publisher</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person or corporate body that prepares and issues printed materials for public sale or distribution, normally on the basis of a legal contract in which the publisher is granted certain exclusive rights in exchange for assuming the financial risk of publication and agreeing to compensate the author, usually with a share of the profits.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_t.cfm#publisher</cfDefSrc>
     </cfClass>
   </cfClassScheme>
 </CERIF>

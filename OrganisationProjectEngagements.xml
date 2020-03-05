@@ -117,12 +117,12 @@
       <!-- usage with CERIF: cfProj_OrgUnit -->
       <cfClassId>69948e23-7c53-4437-a33e-17c051b9281b</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">Inkind-Contributor</cfTerm>
-      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is inkind-contributor of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has inkind-contributor</cfRoleExprOpp>
-      <cfEx cfLangCode="en" cfTrans="o">An organisation that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfEx>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfEx>
       <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
-      <cfDef cfLangCode="en" cfTrans="o">An organisation that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">RMAS project</cfDefSrc>
     </cfClass>
     <cfClass>
@@ -133,9 +133,9 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is partner in</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has partner</cfRoleExprOpp>
-      <cfEx cfLangCode="en" cfTrans="o">An organisation working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfEx>
+      <cfEx cfLangCode="en" cfTrans="o">An individual or organisation working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfEx>
       <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
-      <cfDef cfLangCode="en" cfTrans="o">An organisation working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">An individual or organisation working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfDef>
     </cfClass>
     <cfClass>
       <!-- class schemes: Organisation Project Engagements -->
@@ -155,10 +155,21 @@
       <cfClassId>eda28bc6-34c5-11e1-b86c-0800200c9a66</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">Stakeholder</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; RMAS project</cfTermSrc>
-      <cfRoleExpr cfLangCode="en" cfTrans="o">is stakeholde of</cfRoleExpr>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is stakeholder of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has stakeholder</cfRoleExprOpp>
       <cfDef cfLangCode="en" cfTrans="o">A corporate stakeholder is a party that can affect or be affected by the actions of the business as a whole.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/Stakeholder_(corporate)</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit -->
+      <cfClassId>ddc514b7-f5dd-4dfa-9915-938b71549733</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ConsortiumMember</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is consortium member of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has consortium member</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A consortium member is an individual or corporate body which is a member of an association of two or more individuals, companies, organizations or governments (or any combination of these entities) with the objective of participating in a common activity or pooling their resources for achieving a common goal. </cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/Consortium</cfDefSrc>
     </cfClass>
   </cfClassScheme>
 </CERIF>

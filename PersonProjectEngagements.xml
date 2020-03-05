@@ -343,5 +343,41 @@
       <cfDef cfLangCode="en" cfTrans="o">Any one of the topics or themes of a work, stated explicitly in the text or title or implicit in its message. In library cataloging, a book or other item is assigned one or more subject headings as access points, to assist users in locating its content by subject. In abstracting and indexing services, the headings assigned to represent the content of a document are called descriptors</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_s.cfm#subject</cfDefSrc>
     </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit, cfPers_Proj -->
+      <cfClassId>ddc514b7-f5dd-4dfa-9915-938b71549733</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">ConsortiumMember</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is consortium member of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has consortium member</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A consortium member is an individual or corporate body which is a member of an association of two or more individuals, companies, organizations or governments (or any combination of these entities) with the objective of participating in a common activity or pooling their resources for achieving a common goal. </cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/Consortium</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Project Engagements -->
+      <!-- usage with CERIF: cfProj_OrgUnit, cfPers_Proj -->
+      <cfClassId>69948e23-7c53-4437-a33e-17c051b9281b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Inkind-Contributor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is inkind-contributor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has inkind-contributor</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS project</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Project Engagements -->
+      <!-- usage with CERIF: cfProj_OrgUnit, cfPers_Proj -->
+      <cfClassId>c77f9885-b80d-466a-9097-9768720c0fe1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Partner</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is partner in</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has partner</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An individual or organization working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An individual or organisation working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfDef>
+    </cfClass>
   </cfClassScheme>
 </CERIF>

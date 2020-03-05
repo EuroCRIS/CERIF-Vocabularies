@@ -73,7 +73,7 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is author of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has author</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">An author is the person or corporate entity responsible for producing a written work (essay, monograph, novel, play, poem, screenplay, short story, etc.) whose name is printed on the title page of a book or given elsewhere in or on a manuscript or other item and in whose name the work is copyrighted. A work may have two or more joint authors. In library cataloging, the term is used in its broadest sense to include editor, compiler, composer, creator, etc</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">An author is the person or corporate body responsible for producing a written work (essay, monograph, novel, play, poem, screenplay, short story, etc.) whose name is printed on the title page of a book or given elsewhere in or on a manuscript or other item and in whose name the work is copyrighted. A work may have two or more joint authors. In library cataloging, the term is used in its broadest sense to include editor, compiler, composer, creator, etc</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_e.cfm#author</cfDefSrc>
     </cfClass>
     <cfClass>
@@ -121,7 +121,7 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is editor of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has editor</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">A person who prepares for publication the work(s) of one or more other authors. An editor may be responsible for selecting material included in a collection or for preparing manuscript copy for the printer, including annotation of the text, verification of the accuracy of facts and bibliographic citations, polishing grammar and style, organizing front and back matter, etc. Periodicals and large reference works often have a general editor or editor-in-chief who supervises the work of an editorial staff.</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">A person or corporate body who prepares for publication the work(s) of one or more other authors. An editor may be responsible for selecting material included in a collection or for preparing manuscript copy for the printer, including annotation of the text, verification of the accuracy of facts and bibliographic citations, polishing grammar and style, organizing front and back matter, etc. Periodicals and large reference works often have a general editor or editor-in-chief who supervises the work of an editorial staff.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_e.cfm#editor</cfDefSrc>
     </cfClass>
     <cfClass>
@@ -143,7 +143,7 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is publisher of</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has publisher</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">A person or corporate entity that prepares and issues printed materials for public sale or distribution, normally on the basis of a legal contract in which the publisher is granted certain exclusive rights in exchange for assuming the financial risk of publication and agreeing to compensate the author, usually with a share of the profits.</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">A person or corporate body that prepares and issues printed materials for public sale or distribution, normally on the basis of a legal contract in which the publisher is granted certain exclusive rights in exchange for assuming the financial risk of publication and agreeing to compensate the author, usually with a share of the profits.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_t.cfm#publisher</cfDefSrc>
     </cfClass>
     <cfClass>
@@ -214,6 +214,28 @@
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">has patentee</cfRoleExprOpp>
       <cfDef cfLangCode="en" cfTrans="o">The inventor to whom a patent is issued.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=patentee</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPat -->
+      <cfClassId>1be09e96-c55e-4f9c-8f59-a6fac1b0260b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Inventor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is inventor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has inventor</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A person has “conceived” an invention when their idea is clear enough to enable someone skilled in the field to implement the invention in a practical form.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.henrypatentfirm.com/blog/patent-ownership-vs-inventorship</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Person Output Contributions; Organisation Output Contributions -->
+      <!-- usage with CERIF: cfPers_ResPubl; cfOrgUnit_ResPubl -->
+      <cfClassId>c92a7a1f-346e-4eae-b763-a1886a251243</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">PatentHolder</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is pantentent holder of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has pantentent holder</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A patent holder is a sole person or corporate body who is permitted to make, use, or sell the product, process, or solution to a technological problem in accordance with developed and registered patent.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.shopify.com/encyclopedia/patents</cfDefSrc>
     </cfClass>
     <cfClass>
       <!-- class schemes: Person Output Contributions -->
