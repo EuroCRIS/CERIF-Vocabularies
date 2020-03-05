@@ -116,10 +116,10 @@
       <!-- class schemes: Organisation Project Engagements -->
       <!-- usage with CERIF: cfProj_OrgUnit -->
       <cfClassId>69948e23-7c53-4437-a33e-17c051b9281b</cfClassId>
-      <cfTerm cfLangCode="en" cfTrans="o">Inkind-Contributor</cfTerm>
+      <cfTerm cfLangCode="en" cfTrans="o">InKindContributor</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
-      <cfRoleExpr cfLangCode="en" cfTrans="o">is inkind-contributor of</cfRoleExpr>
-      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has inkind-contributor</cfRoleExprOpp>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in kind contributor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has in kind contributor</cfRoleExprOpp>
       <cfEx cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfEx>
       <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
       <cfDef cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfDef>
