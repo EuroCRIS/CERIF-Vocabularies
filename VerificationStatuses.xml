@@ -12,6 +12,7 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
       <cfDef cfLangCode="en" cfTrans="o">checked</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfDefSrc>
+      <cfX cfLangCode="en" cfTrans="o"><!-- EXTRA to simulate an ERROR --></cfX>
     </cfClass>
     <cfClass>
       <!-- class schemes: Verification Statuses -->
