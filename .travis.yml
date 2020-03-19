@@ -6,4 +6,4 @@ before_install:
 
 script:
 - cd ../CERIF-TG-Tools/CERIF-Publishing/
-- mvn clean xml:validate -B
+- mvn clean process-sources -B
