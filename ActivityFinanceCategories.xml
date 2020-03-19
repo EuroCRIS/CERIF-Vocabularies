@@ -19,6 +19,7 @@
       <cfDef cfLangCode="en" cfTrans="o">A facility is a space or equipment necessary for conducting research (CERIF Entity). The full economic cost associated with the running of the institutional research facilities and equipment used in an activity (Activity Finance Category). The specification, procurement and installation of a facility (Activity Subtype).</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group; http://www.jcpsg.ac.uk/guidance/</cfDefSrc>
     </cfClass>
+    <foobar/>
     <cfClass>
       <!-- class schemes: CERIF Entities; Activity Finance Categories; CERIF Entities -->
       <!-- usage with CERIF: cfEquip_Class; cfProj_Meas; cfProj_Class; cfFedId_Class -->
