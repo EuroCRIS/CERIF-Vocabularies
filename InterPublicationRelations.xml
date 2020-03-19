@@ -61,5 +61,18 @@
       <cfDef cfLangCode="en" cfTrans="o">Something that precedes and indicates the approach of something or someone.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=predecessor</cfDefSrc>
     </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Publication Relations -->
+      <!-- usage with CERIF: cfResPubl_ResPubl -->
+      <cfClassId>e76f7971-7c68-47e1-95b2-55aba1dc1c8f</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Publication</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is published in</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">publishes</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The source (another Publication) where this publication appeared. To be used for a publishing channel.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Openaire guidelines for CRIS managers</cfDefSrc>
+      <cfEx cfLangCode="en" cfTrans="o">A journal article lists here the journal where it appeared.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">Openaire guidelines for CRIS managers</cfExSrc>
+    </cfClass>
   </cfClassScheme>
 </CERIF>
