@@ -1,8 +1,8 @@
 language: java
 
 before_install:
-- git clone --branch=automate-validation https://github.com/jdvorak001/CERIF-TG-Tools.git ../CERIF-TG-Tools
-- git clone --branch=develop https://github.com/eurocris/CERIF-DataModel.git ../CERIF-DataModel
+- git clone https://github.com/eurocris/CERIF-TG-Tools.git ../CERIF-TG-Tools
+- git clone https://github.com/eurocris/CERIF-DataModel.git ../CERIF-DataModel
 
 script:
 - cd ../CERIF-TG-Tools/CERIF-Publishing/
