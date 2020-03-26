@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>7f325346-dcf3-435c-b0f2-240df1c9ad2c</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Project Funding Relations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfProject_Funding link entity.</cfDescr>
+    <cfClass>
+      <cfClassId>b79b1cad-6e46-4a60-9d58-3d25de07e8bd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Support</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is supported by</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">supports</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">The VRE4EIC project received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 676247; VRE4EIC is the cfProject in this example, as grant N°676247 will be the cfFunding.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The activity of providing for or maintaining by supplying with money or necessities.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=Support</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
