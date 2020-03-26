@@ -69,10 +69,10 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is published in</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">publishes</cfRoleExprOpp>
-      <cfDef cfLangCode="en" cfTrans="o">The source (another Publication) where this publication appeared. To be used for a publishing channel.</cfDef>
-      <cfDefSrc cfLangCode="en" cfTrans="o">Openaire guidelines for CRIS managers</cfDefSrc>
       <cfEx cfLangCode="en" cfTrans="o">A journal article lists here the journal where it appeared.</cfEx>
       <cfExSrc cfLangCode="en" cfTrans="o">Openaire guidelines for CRIS managers</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The source (another Publication) where this publication appeared. To be used for a publishing channel.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">Openaire guidelines for CRIS managers</cfDefSrc>
     </cfClass>
   </cfClassScheme>
 </CERIF>
