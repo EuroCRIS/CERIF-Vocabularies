@@ -10,7 +10,7 @@
       <cfClassId>58a38555-3152-4375-8c12-9c03f63746c7</cfClassId>
       <cfTerm cfLangCode="en" cfTrans="o">Funding Duration</cfTerm>
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
-      <cfDef cfLangCode="en" cfTrans="o">Duration of the funding.</cfDef>
+      <cfDef cfLangCode="en" cfTrans="o">Duration of the funding</cfDef>
     </cfClass>
   </cfClassScheme>
 </CERIF>
