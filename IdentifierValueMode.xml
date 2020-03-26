@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Identifier Value Mode</cfName>
+    <cfClass>
+      <!-- class schemes: Identifier Types -->
+      <!-- usage with CERIF: cfFedId_Class -->
+      <cfClassId>31d222b4-11e0-434b-b5ae-088119c51189</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Alternative</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group ; openaire guidelines for CRIS managers</cfTermSrc>
+      <cfDescr cfLangCode="en" cfTrans="o">To be used for other values of one identifier in case the value is not certain, e.g. because there is a conflicting statement with a different value. This can also represent deprecated identifiers/profiles that have been merged into a single, current one that is preferred.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
