@@ -1,0 +1,9 @@
+language: java
+
+before_install:
+- git clone https://github.com/eurocris/CERIF-TG-Tools.git ../CERIF-TG-Tools
+- git clone https://github.com/eurocris/CERIF-DataModel.git ../CERIF-DataModel
+
+script:
+- cd ../CERIF-TG-Tools/CERIF-Publishing/
+- mvn clean process-sources -B
