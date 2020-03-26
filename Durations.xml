@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>3948fd0b-736e-4ee7-9f93-deac8218c43c</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Durations</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable for any entity to express a duration.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Durations -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>58a38555-3152-4375-8c12-9c03f63746c7</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Funding Duration</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">Duration of the funding.</cfDef>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
