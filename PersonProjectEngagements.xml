@@ -18,6 +18,19 @@
       <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=member</cfDefSrc>
     </cfClass>
     <cfClass>
+      <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_OrgUnit -->
+      <cfClassId>25b5465a-9f0f-42c1-9fb6-df6803b15c4b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Team Member</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group, OpenAIRE guidelines for CRIS managers</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is member of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has member</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">In CERIF terms, the member role happens within the ternary relationships person-organisation-project. A person can be a member of a project as a member of an organisation which is project partner. </cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
+      <cfDef cfLangCode="en" cfTrans="o">A member is anything that belongs to a set or class.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=member</cfDefSrc>
+    </cfClass>
+    <cfClass>
       <!-- class schemes: Person Organisation Roles; Person Project Engagements; Inter-Organisational Structure; Person Funding Roles -->
       <!-- usage with CERIF: cfPers_OrgUnit; cfProj_Pers; cfOrgUnit_Fund; cfPers_Fund -->
       <cfClassId>79a2e340-1cfc-11e1-8bc2-0800200c9a66</cfClassId>
@@ -318,6 +331,17 @@
       <cfDefSrc cfLangCode="en" cfTrans="o">http://wordnetweb.princeton.edu/perl/webwn?s=contact</cfDefSrc>
     </cfClass>
     <cfClass>
+      <!-- class schemes: Person Project Engagements; Organisation Funding Roles; Person Funding Roles; Person Research Infrastructure Roles; Person Research Infrastructure Roles; Person Research Infrastructure Roles -->
+      <!-- usage with CERIF: cfProj_Pers; cfOrgUnit_Fund; cfPers_Fund; cfPers_Facil; cfPers_Equip; cfPers_Srv -->
+      <cfClassId>3455e460-9b13-47f8-9481-4fb1544e1347</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Organization Contact</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group; OpenAIRE guidelines for CRIS managers</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is contact on behalf of the organization for</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has contact on behalf of the organization</cfRoleExprOpp>
+      <cfDescr cfLangCode="en" cfTrans="o">The person to be contacted on behalf of the organization which is a member of a project.</cfDescr>
+      <cfDescrSrc cfLangCode="en" cfTrans="o">OpenAIRE guidelines for CRIS managers</cfDescrSrc>
+    </cfClass>
+    <cfClass>
       <!-- class schemes: Person Project Engagements; Organisation Project Engagements; Organisation Funding Roles; Person Funding Roles; Person Output Contributions -->
       <!-- usage with CERIF: cfProj_Pers; cfProj_OrgUnit; cfOrgUnit_Fund; cfPers_Fund; cfPers_ResPat -->
       <cfClassId>33551370-1cfe-11e1-8bc2-0800200c9a66</cfClassId>
@@ -342,6 +366,42 @@
       <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
       <cfDef cfLangCode="en" cfTrans="o">Any one of the topics or themes of a work, stated explicitly in the text or title or implicit in its message. In library cataloging, a book or other item is assigned one or more subject headings as access points, to assist users in locating its content by subject. In abstracting and indexing services, the headings assigned to represent the content of a document are called descriptors</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://lu.com/odlis/odlis_s.cfm#subject</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Inter-Organisational Structure; Organisation Project Engagements -->
+      <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_OrgUnit, cfPers_Proj -->
+      <cfClassId>ddc514b7-f5dd-4dfa-9915-938b71549733</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Consortium Member</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is consortium member of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has consortium member</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">A consortium member is an individual or corporate body which is a member of an association of two or more individuals, companies, organizations or governments (or any combination of these entities) with the objective of participating in a common activity or pooling their resources for achieving a common goal. </cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://en.wikipedia.org/wiki/Consortium</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Project Engagements -->
+      <!-- usage with CERIF: cfProj_OrgUnit, cfPers_Proj -->
+      <cfClassId>69948e23-7c53-4437-a33e-17c051b9281b</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">In Kind Contributor</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project, CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is in kind contributor of</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has in kind contributor</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An organisation or person that provides a non-monetary contribution towards an activity (e.g. staff time, use of facilities).</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">RMAS project</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Organisation Project Engagements -->
+      <!-- usage with CERIF: cfProj_OrgUnit, cfPers_Proj -->
+      <cfClassId>c77f9885-b80d-466a-9097-9768720c0fe1</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Partner</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is partner in</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has partner</cfRoleExprOpp>
+      <cfEx cfLangCode="en" cfTrans="o">An individual or organization working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfEx>
+      <cfExSrc cfLangCode="en" cfTrans="o">RMAS Vocabulary</cfExSrc>
+      <cfDef cfLangCode="en" cfTrans="o">An individual or organisation working in collaboration as part of a consortium to undertake an activity. Normally retaining an interest in any IP generated.</cfDef>
     </cfClass>
   </cfClassScheme>
 </CERIF>
