@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>1bbe66cb-59f4-4d57-b1fe-439ee9218dfb</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Event Output Relationships</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfResultPublication_Event and cfResultProduct_Event link entities.</cfDescr>
+    <cfClass>
+      <cfClassId>d917a26d-7be0-4fec-9f98-91dee3b9185e</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Coverage</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">covers</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">is covered by</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">The reporting of a particular important event or subject.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://dictionary.cambridge.org/dictionary/english/coverage</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <cfClassId>62c5c9b7-52db-402c-afd6-2d49ccae2230</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Output</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is output from</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has output</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">An amount that a person, machine, or organization produces.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://dictionary.cambridge.org/dictionary/english/output</cfDefSrc>
+    </cfClass>
+    <cfClass>
+      <cfClassId>b4ba809e-60d7-411c-af62-792100c45341</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Presented</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">RMAS project</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">is presented at</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">has presented</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">To introduce to the public.</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">https://www.thefreedictionary.com/present</cfDefSrc>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>

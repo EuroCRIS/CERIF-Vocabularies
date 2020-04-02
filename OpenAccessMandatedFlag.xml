@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>a318a48e-0376-4a89-89e5-609037643f9d</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Open Access Mandated Flag</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">The flag if Open Access is mandated for a funding.</cfDescr>
+    <cfClass>
+      <!-- class schemes: Open Access Mandated Flag -->
+      <cfClassId>a87e5f6d-dd05-4d53-a434-aaf59d095cd8</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">True</cfTerm>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Open Access Mandated Flag -->
+      <cfClassId>f45d39d0-20be-4636-b64e-b2b1b8f61315</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">False</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
