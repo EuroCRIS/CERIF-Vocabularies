@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+    <cfClassScheme>
+        <cfClassSchemeId>ec005bb3-42ac-4c7c-ad83-b93853d42e62</cfClassSchemeId>
+        <cfName cfLangCode="en" cfTrans="o">Project Status</cfName>
+        <cfDescr cfLangCode="en" cfTrans="o">Terms in this vocabulary should describe states of the work that is described in projects.</cfDescr>
+        <cfClass>
+            <!-- class schemes: Project Status -->
+            <!-- usagewith CERIF: cfProj_Class -->
+            <cfClassId>61d3b22d-5271-4765-b5ea-7398dfa0c775</cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">In preparation</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is in preparation</cfRoleExpr>
+            <cfDef cfLangCode="en" cfTrans="o">A project is in preparation.</cfDef>
+        </cfClass>
+        <cfClass>
+            <!-- class schemes: Project Status -->
+            <!-- usagewith CERIF: cfProj_Class -->
+            <cfClassId>4cb781f3-543e-4df9-a10d-7e343916a34e</cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">In implementation</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is in implementation</cfRoleExpr>
+            <cfDef cfLangCode="en" cfTrans="o">A project is in implementation.</cfDef>
+        </cfClass>
+        <cfClass>
+            <!-- class schemes: Project Status -->
+            <!-- usagewith CERIF: cfProj_Class -->
+            <cfClassId>61d3b22d-5271-4765-b5ea-7398dfa0c775</cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">Completed</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is completed</cfRoleExpr>
+            <cfDef cfLangCode="en" cfTrans="o">A project is completed.</cfDef>
+        </cfClass>
+    </cfClassScheme>
+</CERIF>
