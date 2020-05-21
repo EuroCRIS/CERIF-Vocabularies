@@ -1,9 +1,11 @@
 language: java
 
 before_install:
-- git clone https://github.com/eurocris/CERIF-TG-Tools.git ../CERIF-TG-Tools
+- git clone -b automate-publishing https://github.com/eurocris/CERIF-TG-Tools.git ../CERIF-TG-Tools
 - git clone https://github.com/eurocris/CERIF-DataModel.git ../CERIF-DataModel
 
 script:
 - cd ../CERIF-TG-Tools/CERIF-Publishing/
-- mvn clean process-sources -B
+- mvn clean compile -B
+- echo This is branch $TRAVIS_BRANCH of $TRAVIS_REPO_SLUG
+- \[ $TRAVIS_REPO_SLUG == "EuroCRIS/CERIF-Vocabularies" \] && \[ $TRAVIS_BRANCH == "master" \] && ./travis-publish.sh target/vocab
