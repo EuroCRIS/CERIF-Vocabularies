@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 https://w3id.org/cerif/vocab/xml/schema/CERIF-Vocabulary.xsd" release="1.5" date="2012-10-02" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>759af93a-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">Funding Status</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">A vocabulary to describe the status of acquiring and using funding for a project.</cfDescr>
+
+    <cfClass>
+      <!-- class schemes: Funding Status -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>20a14a62-85b2-42fe-bd46-d9f07a752abc</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Applied</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The proposed project has been submitted to the funder for consideration.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Status -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>eda2b2e0-34c5-11e1-b86c-0800200c9a66</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Approved</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The funder has agreed to fund the proposed project.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Status -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>f97f3ccd-13c0-46ce-9cb3-98ebb58f39fd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Rejected</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The funder rejected the proposed project.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Status -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>0bb4df81-4e9a-41ae-947c-5ae3bde26abd</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">In Utilisation</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The research activity is being carried out, for which the funding is being used.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Status -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>f1b4807b-2aef-4b51-99e8-f7d646afa49d</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">In Reporting</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The research activity was being carried out for which the funding is being used, and now the final reporting is in progress.</cfDef>
+    </cfClass>
+    <cfClass>
+      <!-- class schemes: Funding Status -->
+      <!-- usage with CERIF: cfFund_Class -->
+      <cfClassId>276a4f0c-6729-47df-b8d3-7cd1cb3c7e67</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">Closed</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+      <cfDef cfLangCode="en" cfTrans="o">The project funding is considered completed.</cfDef>
+    </cfClass>
+  </cfClassScheme>
+</CERIF>
