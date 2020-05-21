@@ -8,4 +8,4 @@ script:
 - cd ../CERIF-TG-Tools/CERIF-Publishing/
 - mvn clean compile -B
 - echo This is branch $TRAVIS_BRANCH of $TRAVIS_REPO_SLUG
-- \[ $TRAVIS_REPO_SLUG == "EuroCRIS/CERIF-Vocabularies" \] && \[ $TRAVIS_BRANCH == "master" \] && ./travis-publish.sh target/vocab
+- \[ $TRAVIS_REPO_SLUG == "EuroCRIS/CERIF-Vocabularies" \] && \[ $TRAVIS_BRANCH == "master" \] && ./travis-publish.sh 1ad31cf754f4 target/vocab
