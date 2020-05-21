@@ -22,7 +22,7 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfRoleExpr cfLangCode="en" cfTrans="o">is a</cfRoleExpr>
       <cfDef cfLangCode="en" cfTrans="o">Call for proposals: a specific campaign for the funder to solicit proposals from interested researchers and institutions.</cfDef>
-      <cfDefSrc cfLangCode="en" cfTrans="o">OPENAire Guidelines for CRIS managers</cfDefSrc>
+      <cfDefSrc cfLangCode="en" cfTrans="o">OpenAIRE Guidelines for CRIS managers</cfDefSrc>
     </cfClass>
     <cfClass>
       <!-- class schemes: Funding Types -->
