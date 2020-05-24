@@ -1,7 +1,7 @@
 language: java
 
 before_install:
-- git clone -b automate-publishing https://github.com/eurocris/CERIF-TG-Tools.git ../CERIF-TG-Tools
+- git clone https://github.com/eurocris/CERIF-TG-Tools.git ../CERIF-TG-Tools
 - git clone https://github.com/eurocris/CERIF-DataModel.git ../CERIF-DataModel
 
 script:
