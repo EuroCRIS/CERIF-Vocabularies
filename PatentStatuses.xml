@@ -10,6 +10,7 @@
             <cfClassId>add63e88-fd07-4b1c-80ad-60ad46abda82</cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">In Preparation</cfTerm>
             <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfDescr cfLangCode="en">The protection of the intellectual property is being prepared (internally).</cfDescr>
             <cfDef cfLangCode="en" cfTrans="o">A (planned) output.</cfDef>
             <cfDefSrc cfLangCode="en" cfTrans="o">https://www.inquartik.com/inq-patent-legal-status/</cfDefSrc>
         </cfClass>
@@ -28,6 +29,7 @@
             <cfClassId>04144a14-215f-444a-a961-0787db77012b</cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">Under examination</cfTerm>
             <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfDescr cfLangCode="en">This status can be considered a substatus of Filed.</cfDescr>
             <cfDef cfLangCode="en" cfTrans="o">The application is under examination.</cfDef>
             <cfDefSrc cfLangCode="en" cfTrans="o">https://www.inquartik.com/inq-patent-legal-status/</cfDefSrc>
         </cfClass>
@@ -37,6 +39,7 @@
             <cfClassId>f451b2d0-f953-428e-8432-930e46e11ba6</cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">Granted</cfTerm>
             <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfDescr cfLangCode="en">The patent application has been approved and the patent protection has been granted.</cfDescr>
             <cfDef cfLangCode="en" cfTrans="o">The patent is active and can be enforced.</cfDef>
             <cfDefSrc cfLangCode="en" cfTrans="o">https://www.inquartik.com/inq-patent-legal-status/</cfDefSrc>
         </cfClass>
@@ -46,6 +49,7 @@
             <cfClassId>c245b32c-9125-47d0-b08c-d97592202bad</cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">Published</cfTerm>
             <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
+            <cfDescr cfLangCode="en">This can sometimes happen before the patent is granted.</cfDescr>
             <cfDef cfLangCode="en" cfTrans="o">Patent applications are published in order to make the public sphere aware of what is seeking patent protection. </cfDef>
             <cfDefSrc cfLangCode="en" cfTrans="o">https://www.upcounsel.com/patent-granted-vs-published</cfDefSrc>
         </cfClass>
