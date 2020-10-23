@@ -7,4 +7,4 @@ before_install:
 script:
 - cd ../CERIF-TG-Tools/CERIF-Publishing/
 - mvn clean compile -B
-- ./travis-publish.sh 1ad31cf754f4 target/vocab
+- ./travis-publish.sh 9f5c09747267 target/vocab
